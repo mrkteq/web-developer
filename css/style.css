@@ -1,4 +1,7 @@
-/* Reset */
+/* ==========================================================================
+   Base Styles & Reset
+   ========================================================================== */
+
 *,
 *::before,
 *::after {
@@ -7,7 +10,10 @@
   padding: 0;
 }
 
-/* Variables */
+/* ==========================================================================
+   CSS Custom Properties (Variables)
+   ========================================================================== */
+
 :root {
   /* Colors */
   --color-primary: #1296E6;
@@ -31,16 +37,18 @@
   --space-xl: 3rem;
   
   /* Typography */
-  --font-heading: 'Russo One', sans-serif;
-  --font-body: system-ui, -apple-system, sans-serif;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-size-base: clamp(1rem, 3vw, 1.4rem);
   --font-size-h1: clamp(2rem, 5vw, 3.5rem);
   --font-size-h2: clamp(1.5rem, 4vw, 2.5rem);
 }
 
-/* Base Styles */
+/* ==========================================================================
+   Base Elements
+   ========================================================================== */
+
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-family);
   font-size: var(--font-size-base);
   line-height: 1.6;
   color: var(--text-color-light);
@@ -50,24 +58,19 @@ body {
 
 /* Typography */
 h1, h2, h3 {
-  /* font-family: var(--font-heading); */
   line-height: 1.2;
   margin-bottom: var(--space-md);
 }
 
-h1 {
-  font-size: var(--font-size-h1);
-}
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+p { margin-bottom: var(--space-md); }
 
-h2 {
-  font-size: var(--font-size-h2);
-}
+/* ==========================================================================
+   Layout Components
+   ========================================================================== */
 
-p {
-  margin-bottom: var(--space-md);
-}
-
-/* Layout */
+/* Container */
 .container {
   width: min(90%, 1200px);
   margin-inline: auto;
@@ -82,12 +85,17 @@ p {
   background-color: var(--color-primary);
 }
 
+/* ==========================================================================
+   Project Components
+   ========================================================================== */
+
 /* Project Grid */
 .project-grid {
   display: grid;
   gap: var(--space-md);
 }
 
+/* Featured Image */
 .featured-image-container {
   width: 100%;
   aspect-ratio: 4/3;
@@ -147,7 +155,11 @@ p {
   box-shadow: 0 0 0 2px var(--color-accent);
 }
 
-/* Navigation Buttons */
+/* ==========================================================================
+   Navigation Components
+   ========================================================================== */
+
+/* Slider Navigation */
 .slider-nav {
   position: absolute;
   top: 60%;
@@ -171,15 +183,13 @@ p {
   background-color: var(--color-accent);
 }
 
-.slider-nav.prev {
-  left: 0.5rem;
-}
+.slider-nav.prev { left: 0.5rem; }
+.slider-nav.next { right: 0.5rem; }
 
-.slider-nav.next {
-  right: 0.5rem;
-}
+/* ==========================================================================
+   Button Components
+   ========================================================================== */
 
-/* Buttons */
 .button-group {
   display: flex;
   gap: var(--space-md);
@@ -197,19 +207,36 @@ p {
 
 .button:hover {
   background: var(--color-accent);
-  color: white;
+  color: var(--text-color-light);
 }
 
 .button.blue {
   background-color: var(--color-primary);
-  color: var(--text-color-light);
 }
 
 .button.blue:hover {
   background-color: var(--color-accent);
 }
 
-/* Responsive Layout */
+/* ==========================================================================
+   Section Styles
+   ========================================================================== */
+
+.projects {
+  background-color: var(--color-primary);
+  color: var(--text-color-light);
+  padding: var(--space-xl) 0;
+}
+
+#more-projects-heading {
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-lg);
+}
+
+/* ==========================================================================
+   Responsive Layout
+   ========================================================================== */
+
 @media (min-width: 768px) {
   .project-grid {
     grid-template-columns: 1fr 1fr;
@@ -234,16 +261,4 @@ p {
     grid-column: 1 / -1;
     grid-row: 3 / 4;
   }
-}
-
-/* Projects Section */
-.projects {
-  background-color: var(--color-primary);
-  color: var(--text-color-light);
-  padding: var(--space-xl) 0;
-}
-
-#more-projects-heading {
-  margin-top: var(--space-xl);
-  margin-bottom: var(--space-lg);
 }

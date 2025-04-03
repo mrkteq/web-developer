@@ -14,24 +14,18 @@
     
     <title>Mark Tucker | Portfolio</title>
     
-    <!-- Preload critical fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"></noscript>
-    
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
-    <header class="hero" role="banner">
+    <header class="hero">
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
             <section class="about" aria-labelledby="about-heading">
                 <h2 id="about-heading">About Me</h2>
                 <p>My name is Mark Tucker and I'm an experienced web developer with a background in building digital solutions for agencies, PLCs, and businesses across Europe. Skilled in developing and maintaining websites, problem-solving, and adapting to evolving technologies. Passionate about creating functional, user-friendly experiences and always looking to refine my skills. Seeking remote opportunities where I can contribute expertise, reliability, and a commitment to quality work.</p>
-                <div class="button-group" role="group" aria-label="Professional links">
+                <div class="button-group">
                     <a href="https://marktucker-resume.netlify.app/" class="button blue" aria-label="View my complete resume">My Resume</a>
                     <a href="https://www.linkedin.com/in/mark-anthony-tucker" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="View my LinkedIn profile">My LinkedIn</a>
                 </div>
@@ -39,7 +33,7 @@
         </div>
     </header>
 
-    <main id="main-content" role="main">
+    <main id="main-content">
         <article id="projects" class="projects">
             <div class="container">
                 <section class="featured-project" aria-labelledby="featured-project-heading">
@@ -48,7 +42,7 @@
                         <div class="project-content">
                             <h3>Trusted Pet & House Care</h3>
                             <p>We put this project together in a day to give people a quick look at something we were experimenting with and to see if it might spark any interest.</p>
-                            <div class="button-group" role="group" aria-label="Project links">
+                            <div class="button-group">
                                 <a href="https://howsit.netlify.app/" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="View Trusted Pet & House Care website">View Website</a>
                                 <a href="https://github.com/mrkteq/house--sitter-website" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="View source code on GitHub">View Source</a>
                             </div>
@@ -65,9 +59,9 @@
 
                 <section class="project-showcase" aria-labelledby="more-projects-heading">
                     <h3 id="more-projects-heading">More Projects</h3>
-                    <div class="project-slider-container" role="region" aria-label="Project gallery">
+                    <div class="project-slider-container">
                         <button class="slider-nav prev blue" aria-label="View previous projects">&lt;</button>
-                        <div class="project-slider" role="list">
+                        <div class="project-slider">
                             <img src="/img/project-ps.jpg" 
                                  data-live-url="https://howsit.netlify.app/" 
                                  data-source-url="https://github.com/mrkteq/house--sitter-website" 
