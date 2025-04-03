@@ -50,7 +50,7 @@ body {
 
 /* Typography */
 h1, h2, h3 {
-  font-family: var(--font-heading);
+  /* font-family: var(--font-heading); */
   line-height: 1.2;
   margin-bottom: var(--space-md);
 }
