@@ -16,15 +16,15 @@
 
 :root {
   /* Colors */
-  --color-primary: #1296E6; /* Blue for light mode */
+  --color-primary: #1296E6; 
   --color-primary-light: #40abed;
   --color-primary-dark: #0d75b3;
   --color-accent: #2C3E50;
   --color-accent-light: #c1d4f7;
 
   /* Text Colors */
-  --text-color: #ffffff; /* White text for light mode */
-  --text-color-light: #ffffff; /* White text for buttons and accents */
+  --text-color: #ffffff; 
+  --text-color-light: #ffffff; 
 
   /* Background */
   --gradient-bg: linear-gradient(45deg, #E6F3FF 0%, #ffffff 100%);
@@ -51,8 +51,8 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   line-height: 1.6;
-  color: var(--text-color); /* White text for light mode */
-  background-color: var(--color-primary-dark); /* Blue for light mode */
+  color: var(--text-color); 
+  background-color: var(--color-primary-dark); 
   min-height: 100vh;
 }
 
@@ -82,7 +82,7 @@ p { margin-bottom: var(--space-md); }
   place-items: center;
   text-align: left;
   padding-block: var(--space-xl);
-  background-color: var(--color-primary-dark); /* Blue for light mode */
+  background-color: var(--color-primary-dark); 
 }
 
 /* ==========================================================================
@@ -166,7 +166,7 @@ p { margin-bottom: var(--space-md); }
   transform: translateY(-50%);
   background: transparent;
   border: none;
-  color: var(--text-color-light); /* White text for buttons */
+  color: var(--text-color-light);
   padding: 0.5rem;
   cursor: pointer;
   border-radius: 50%;
@@ -180,7 +180,7 @@ p { margin-bottom: var(--space-md); }
 }
 
 .slider-nav:hover {
-  background-color: var(--color-primary-light); /* Lighter blue on hover */
+  background-color: var(--color-primary-light); 
 }
 
 .slider-nav.prev { left: 0.5rem; }
@@ -198,37 +198,29 @@ p { margin-bottom: var(--space-md); }
 .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: transparent; /* No background color by default */
-  color: var(--text-color-light); /* White text */
-  border: 2px solid var(--text-color-light); /* White border */
-  box-shadow: none; /* No shadow by default */
+  background-color: transparent; 
+  color: var(--text-color-light); 
+  border: 2px solid var(--text-color-light); 
+  box-shadow: none; 
   text-decoration: none;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .button:hover {
-  background-color: var(--color-primary); /* Apply background color on hover */
-  transform: translateY(-2px); /* Slight lift effect on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Add shadow on hover */
-  color: var(--text-color-light); /* Keep text white */
+  background-color: var(--color-primary); 
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+  color: var(--text-color-light); 
 }
-
-/* .button.blue {
-  background-color: var(--color-primary);
-}
-
-.button.blue:hover {
-  background-color: var(--color-primary-light);
-} */
 
 /* ==========================================================================
    Section Styles
    ========================================================================== */
 
 .projects {
-  background-color: var(--color-primary-dark); /* Blue for light mode */
-  color: var(--text-color); /* White text for light mode */
+  background-color: var(--color-primary-dark);
+  color: var(--text-color); 
   padding: var(--space-xl) 0;
 }
 
@@ -273,12 +265,12 @@ p { margin-bottom: var(--space-md); }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #f0f6fc; /* White text for dark mode */
-    --text-color-light: #9198a1; /* Dark yellow for secondary text */
+    --text-color: #f0f6fc; 
+    --text-color-light: #9198a1; 
   }
 
   body {
-    background-color: #0d1116; /* Black background for dark mode */
+    background-color: #0d1116; 
     color: var(--text-color-light); 
   }
 
@@ -287,33 +279,33 @@ p { margin-bottom: var(--space-md); }
   }
 
   .hero {
-    background-color: #0d1116; /* Black background for dark mode */
+    background-color: #0d1116; 
   }
 
   .projects {
-    background-color: #0d1116; /* Black background for dark mode */
-    color: var(--text-color-light); /* White text for dark mode */
+    background-color: #0d1116; 
+    color: var(--text-color-light); 
   }
 
   .slider-nav {
-    color: var(--text-color); /* White text for buttons */
+    color: var(--text-color); 
   }
 
   .slider-nav:hover {
-    background-color: var(--color-primary-light); /* Lighter yellow on hover */
+    background-color: var(--color-primary-light); 
   }
 
   .button {
-    background-color: transparent; /* No background color by default */
-    color: var(--text-color); /* White text */
-    border: 2px solid var(--text-color); /* White border */
-    box-shadow: none; /* No shadow by default */
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    box-shadow: none;
   }
 
   .button:hover {
-    background-color: var(--color-primary); /* Apply yellow background on hover */
-    transform: translateY(-2px); /* Slight lift effect on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Add shadow on hover */
-    color: var(--text-color); /* Keep text white */
+    background-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    color: var(--text-color);
   }
 }
