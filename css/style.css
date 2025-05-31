@@ -259,6 +259,16 @@ p { margin-bottom: var(--space-md); }
   }
 }
 
+.blog-note {
+      display: inline-block;
+      font-family: 'Pacifico', 'Comic Sans MS', cursive, sans-serif;
+      font-size: 1.1em;
+      color: var(--text-color-light);
+      transform: rotate(-12deg);
+      vertical-align: middle;
+      position: relative;
+}
+
 /* ==========================================================================
    Dark Mode Styles
    ========================================================================== */
