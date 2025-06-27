@@ -70,11 +70,4 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   setActiveThumbnailOnLoad();
-
-  // Initialize first thumbnail's URLs (optional)
-//   const firstThumb = thumbnails[0];
-//   if (firstThumb) {
-//       liveButton.href = firstThumb.dataset.liveUrl || '#';
-//       sourceButton.href = firstThumb.dataset.sourceUrl || '#';
-//   }
 });
