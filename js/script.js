@@ -48,12 +48,36 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 
+  // Helper to update nav button disabled state
+  function updateNavButtons() {
+    const scrollLeft = slider.scrollLeft;
+    const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
+
+    if (scrollLeft <= 0) {
+      prevBtn.classList.add('disabled');
+    } else {
+      prevBtn.classList.remove('disabled');
+    }
+
+    if (scrollLeft >= maxScrollLeft - 1) {
+      nextBtn.classList.add('disabled');
+    } else {
+      nextBtn.classList.remove('disabled');
+    }
+  }
+
+  // Update nav buttons on scroll and on load
+  slider.addEventListener('scroll', updateNavButtons);
+  window.addEventListener('resize', updateNavButtons);
+  updateNavButtons();
+
   // Handle slider navigation
   prevBtn.addEventListener('click', () => {
       slider.scrollBy({
           left: -200,
           behavior: 'smooth'
       });
+      pulseButton(prevBtn);
   });
 
   nextBtn.addEventListener('click', () => {
@@ -61,6 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
           left: 200,
           behavior: 'smooth'
       });
+      pulseButton(nextBtn);
   });
 
   // Ensure correct active thumbnail on load

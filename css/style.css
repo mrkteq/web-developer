@@ -178,6 +178,13 @@ p { margin-bottom: var(--space-md); }
   animation: slider-nav-pulse 1.2s infinite cubic-bezier(.4,1.3,.6,1);
 }
 
+.slider-nav.disabled {
+  animation-play-state: paused;
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
 .slider-nav:hover {
   background-color: var(--text-color); 
   color: var(--color-primary);
