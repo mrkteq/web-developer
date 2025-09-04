@@ -1,0 +1,662 @@
+{
+  "argyll": {
+    "thumb": {
+      "srcset": "/img/optimized/argyll/thumb-320.webp 320w, /img/optimized/argyll/thumb-640.webp 640w, /img/optimized/argyll/thumb-960.webp 960w, /img/optimized/argyll/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/argyll/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/argyll/hero-640.webp 640w, /img/optimized/argyll/hero-960.webp 960w, /img/optimized/argyll/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/argyll/hero-1280.jpg"
+    }
+  },
+  "aylesbury": {
+    "thumb": {
+      "srcset": "/img/optimized/aylesbury/thumb-320.webp 320w, /img/optimized/aylesbury/thumb-640.webp 640w, /img/optimized/aylesbury/thumb-960.webp 960w, /img/optimized/aylesbury/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/aylesbury/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/aylesbury/hero-640.webp 640w, /img/optimized/aylesbury/hero-960.webp 960w, /img/optimized/aylesbury/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/aylesbury/hero-1280.jpg"
+    }
+  },
+  "bed-breakfast": {
+    "thumb": {
+      "srcset": "/img/optimized/bed-breakfast/thumb-320.webp 320w, /img/optimized/bed-breakfast/thumb-640.webp 640w, /img/optimized/bed-breakfast/thumb-960.webp 960w, /img/optimized/bed-breakfast/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/bed-breakfast/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/bed-breakfast/hero-640.webp 640w, /img/optimized/bed-breakfast/hero-960.webp 960w, /img/optimized/bed-breakfast/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/bed-breakfast/hero-1280.jpg"
+    }
+  },
+  "bedfordshire": {
+    "thumb": {
+      "srcset": "/img/optimized/bedfordshire/thumb-320.webp 320w, /img/optimized/bedfordshire/thumb-640.webp 640w, /img/optimized/bedfordshire/thumb-960.webp 960w, /img/optimized/bedfordshire/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/bedfordshire/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/bedfordshire/hero-640.webp 640w, /img/optimized/bedfordshire/hero-960.webp 960w, /img/optimized/bedfordshire/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/bedfordshire/hero-1280.jpg"
+    }
+  },
+  "bg-gen": {
+    "thumb": {
+      "srcset": "/img/optimized/bg-gen/thumb-320.webp 320w, /img/optimized/bg-gen/thumb-640.webp 640w, /img/optimized/bg-gen/thumb-960.webp 960w, /img/optimized/bg-gen/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/bg-gen/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/bg-gen/hero-640.webp 640w, /img/optimized/bg-gen/hero-960.webp 960w, /img/optimized/bg-gen/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/bg-gen/hero-1280.jpg"
+    }
+  },
+  "bridle": {
+    "thumb": {
+      "srcset": "/img/optimized/bridle/thumb-320.webp 320w, /img/optimized/bridle/thumb-640.webp 640w, /img/optimized/bridle/thumb-960.webp 960w, /img/optimized/bridle/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/bridle/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/bridle/hero-640.webp 640w, /img/optimized/bridle/hero-960.webp 960w, /img/optimized/bridle/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/bridle/hero-1280.jpg"
+    }
+  },
+  "bristol": {
+    "thumb": {
+      "srcset": "/img/optimized/bristol/thumb-320.webp 320w, /img/optimized/bristol/thumb-640.webp 640w, /img/optimized/bristol/thumb-960.webp 960w, /img/optimized/bristol/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/bristol/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/bristol/hero-640.webp 640w, /img/optimized/bristol/hero-960.webp 960w, /img/optimized/bristol/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/bristol/hero-1280.jpg"
+    }
+  },
+  "cherwell": {
+    "thumb": {
+      "srcset": "/img/optimized/cherwell/thumb-320.webp 320w, /img/optimized/cherwell/thumb-640.webp 640w, /img/optimized/cherwell/thumb-960.webp 960w, /img/optimized/cherwell/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/cherwell/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/cherwell/hero-640.webp 640w, /img/optimized/cherwell/hero-960.webp 960w, /img/optimized/cherwell/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/cherwell/hero-1280.jpg"
+    }
+  },
+  "coastalcalm": {
+    "thumb": {
+      "srcset": "/img/optimized/coastalcalm/thumb-320.webp 320w, /img/optimized/coastalcalm/thumb-640.webp 640w, /img/optimized/coastalcalm/thumb-960.webp 960w, /img/optimized/coastalcalm/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/coastalcalm/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/coastalcalm/hero-640.webp 640w, /img/optimized/coastalcalm/hero-960.webp 960w, /img/optimized/coastalcalm/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/coastalcalm/hero-1280.jpg"
+    }
+  },
+  "countries-api": {
+    "thumb": {
+      "srcset": "/img/optimized/countries-api/thumb-320.webp 320w, /img/optimized/countries-api/thumb-640.webp 640w, /img/optimized/countries-api/thumb-960.webp 960w, /img/optimized/countries-api/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/countries-api/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/countries-api/hero-640.webp 640w, /img/optimized/countries-api/hero-960.webp 960w, /img/optimized/countries-api/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/countries-api/hero-1280.jpg"
+    }
+  },
+  "croydon": {
+    "thumb": {
+      "srcset": "/img/optimized/croydon/thumb-320.webp 320w, /img/optimized/croydon/thumb-640.webp 640w, /img/optimized/croydon/thumb-960.webp 960w, /img/optimized/croydon/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/croydon/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/croydon/hero-640.webp 640w, /img/optimized/croydon/hero-960.webp 960w, /img/optimized/croydon/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/croydon/hero-1280.jpg"
+    }
+  },
+  "dendrite": {
+    "thumb": {
+      "srcset": "/img/optimized/dendrite/thumb-320.webp 320w, /img/optimized/dendrite/thumb-640.webp 640w, /img/optimized/dendrite/thumb-960.webp 960w, /img/optimized/dendrite/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/dendrite/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/dendrite/hero-640.webp 640w, /img/optimized/dendrite/hero-960.webp 960w, /img/optimized/dendrite/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/dendrite/hero-1280.jpg"
+    }
+  },
+  "dsgqs": {
+    "thumb": {
+      "srcset": "/img/optimized/dsgqs/thumb-320.webp 320w, /img/optimized/dsgqs/thumb-640.webp 640w, /img/optimized/dsgqs/thumb-960.webp 960w, /img/optimized/dsgqs/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/dsgqs/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/dsgqs/hero-640.webp 640w, /img/optimized/dsgqs/hero-960.webp 960w, /img/optimized/dsgqs/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/dsgqs/hero-1280.jpg"
+    }
+  },
+  "edinburgh": {
+    "thumb": {
+      "srcset": "/img/optimized/edinburgh/thumb-320.webp 320w, /img/optimized/edinburgh/thumb-640.webp 640w, /img/optimized/edinburgh/thumb-960.webp 960w, /img/optimized/edinburgh/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/edinburgh/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/edinburgh/hero-640.webp 640w, /img/optimized/edinburgh/hero-960.webp 960w, /img/optimized/edinburgh/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/edinburgh/hero-1280.jpg"
+    }
+  },
+  "ems": {
+    "thumb": {
+      "srcset": "/img/optimized/ems/thumb-320.webp 320w, /img/optimized/ems/thumb-640.webp 640w, /img/optimized/ems/thumb-960.webp 960w, /img/optimized/ems/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/ems/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/ems/hero-640.webp 640w, /img/optimized/ems/hero-960.webp 960w, /img/optimized/ems/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/ems/hero-1280.jpg"
+    }
+  },
+  "fordway": {
+    "thumb": {
+      "srcset": "/img/optimized/fordway/thumb-320.webp 320w, /img/optimized/fordway/thumb-640.webp 640w, /img/optimized/fordway/thumb-960.webp 960w, /img/optimized/fordway/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/fordway/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/fordway/hero-640.webp 640w, /img/optimized/fordway/hero-960.webp 960w, /img/optimized/fordway/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/fordway/hero-1280.jpg"
+    }
+  },
+  "gingerlilly": {
+    "thumb": {
+      "srcset": "/img/optimized/gingerlilly/thumb-320.webp 320w, /img/optimized/gingerlilly/thumb-640.webp 640w, /img/optimized/gingerlilly/thumb-960.webp 960w, /img/optimized/gingerlilly/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/gingerlilly/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/gingerlilly/hero-640.webp 640w, /img/optimized/gingerlilly/hero-960.webp 960w, /img/optimized/gingerlilly/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/gingerlilly/hero-1280.jpg"
+    }
+  },
+  "hackney": {
+    "thumb": {
+      "srcset": "/img/optimized/hackney/thumb-320.webp 320w, /img/optimized/hackney/thumb-640.webp 640w, /img/optimized/hackney/thumb-960.webp 960w, /img/optimized/hackney/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/hackney/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/hackney/hero-640.webp 640w, /img/optimized/hackney/hero-960.webp 960w, /img/optimized/hackney/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/hackney/hero-1280.jpg"
+    }
+  },
+  "haringey": {
+    "thumb": {
+      "srcset": "/img/optimized/haringey/thumb-320.webp 320w, /img/optimized/haringey/thumb-640.webp 640w, /img/optimized/haringey/thumb-960.webp 960w, /img/optimized/haringey/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/haringey/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/haringey/hero-640.webp 640w, /img/optimized/haringey/hero-960.webp 960w, /img/optimized/haringey/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/haringey/hero-1280.jpg"
+    }
+  },
+  "harlingmenzies": {
+    "thumb": {
+      "srcset": "/img/optimized/harlingmenzies/thumb-320.webp 320w, /img/optimized/harlingmenzies/thumb-640.webp 640w, /img/optimized/harlingmenzies/thumb-960.webp 960w, /img/optimized/harlingmenzies/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/harlingmenzies/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/harlingmenzies/hero-640.webp 640w, /img/optimized/harlingmenzies/hero-960.webp 960w, /img/optimized/harlingmenzies/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/harlingmenzies/hero-1280.jpg"
+    }
+  },
+  "harrow": {
+    "thumb": {
+      "srcset": "/img/optimized/harrow/thumb-320.webp 320w, /img/optimized/harrow/thumb-640.webp 640w, /img/optimized/harrow/thumb-960.webp 960w, /img/optimized/harrow/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/harrow/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/harrow/hero-640.webp 640w, /img/optimized/harrow/hero-960.webp 960w, /img/optimized/harrow/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/harrow/hero-1280.jpg"
+    }
+  },
+  "hartwood": {
+    "thumb": {
+      "srcset": "/img/optimized/hartwood/thumb-320.webp 320w, /img/optimized/hartwood/thumb-640.webp 640w, /img/optimized/hartwood/thumb-960.webp 960w, /img/optimized/hartwood/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/hartwood/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/hartwood/hero-640.webp 640w, /img/optimized/hartwood/hero-960.webp 960w, /img/optimized/hartwood/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/hartwood/hero-1280.jpg"
+    }
+  },
+  "heiko-reformas": {
+    "thumb": {
+      "srcset": "/img/optimized/heiko-reformas/thumb-320.webp 320w, /img/optimized/heiko-reformas/thumb-640.webp 640w, /img/optimized/heiko-reformas/thumb-960.webp 960w, /img/optimized/heiko-reformas/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/heiko-reformas/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/heiko-reformas/hero-640.webp 640w, /img/optimized/heiko-reformas/hero-960.webp 960w, /img/optimized/heiko-reformas/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/heiko-reformas/hero-1280.jpg"
+    }
+  },
+  "infodata": {
+    "thumb": {
+      "srcset": "/img/optimized/infodata/thumb-320.webp 320w, /img/optimized/infodata/thumb-640.webp 640w, /img/optimized/infodata/thumb-960.webp 960w, /img/optimized/infodata/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/infodata/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/infodata/hero-640.webp 640w, /img/optimized/infodata/hero-960.webp 960w, /img/optimized/infodata/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/infodata/hero-1280.jpg"
+    }
+  },
+  "ithandyman": {
+    "thumb": {
+      "srcset": "/img/optimized/ithandyman/thumb-320.webp 320w, /img/optimized/ithandyman/thumb-640.webp 640w, /img/optimized/ithandyman/thumb-960.webp 960w, /img/optimized/ithandyman/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/ithandyman/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/ithandyman/hero-640.webp 640w, /img/optimized/ithandyman/hero-960.webp 960w, /img/optimized/ithandyman/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/ithandyman/hero-1280.jpg"
+    }
+  },
+  "julianperry": {
+    "thumb": {
+      "srcset": "/img/optimized/julianperry/thumb-320.webp 320w, /img/optimized/julianperry/thumb-640.webp 640w, /img/optimized/julianperry/thumb-960.webp 960w, /img/optimized/julianperry/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/julianperry/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/julianperry/hero-640.webp 640w, /img/optimized/julianperry/hero-960.webp 960w, /img/optimized/julianperry/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/julianperry/hero-1280.jpg"
+    }
+  },
+  "kimal": {
+    "thumb": {
+      "srcset": "/img/optimized/kimal/thumb-320.webp 320w, /img/optimized/kimal/thumb-640.webp 640w, /img/optimized/kimal/thumb-960.webp 960w, /img/optimized/kimal/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/kimal/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/kimal/hero-640.webp 640w, /img/optimized/kimal/hero-960.webp 960w, /img/optimized/kimal/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/kimal/hero-1280.jpg"
+    }
+  },
+  "kraus": {
+    "thumb": {
+      "srcset": "/img/optimized/kraus/thumb-320.webp 320w, /img/optimized/kraus/thumb-640.webp 640w, /img/optimized/kraus/thumb-960.webp 960w, /img/optimized/kraus/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/kraus/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/kraus/hero-640.webp 640w, /img/optimized/kraus/hero-960.webp 960w, /img/optimized/kraus/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/kraus/hero-1280.jpg"
+    }
+  },
+  "lambeth": {
+    "thumb": {
+      "srcset": "/img/optimized/lambeth/thumb-320.webp 320w, /img/optimized/lambeth/thumb-640.webp 640w, /img/optimized/lambeth/thumb-960.webp 960w, /img/optimized/lambeth/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/lambeth/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/lambeth/hero-640.webp 640w, /img/optimized/lambeth/hero-960.webp 960w, /img/optimized/lambeth/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/lambeth/hero-1280.jpg"
+    }
+  },
+  "laurenceking": {
+    "thumb": {
+      "srcset": "/img/optimized/laurenceking/thumb-320.webp 320w, /img/optimized/laurenceking/thumb-640.webp 640w, /img/optimized/laurenceking/thumb-960.webp 960w, /img/optimized/laurenceking/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/laurenceking/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/laurenceking/hero-640.webp 640w, /img/optimized/laurenceking/hero-960.webp 960w, /img/optimized/laurenceking/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/laurenceking/hero-1280.jpg"
+    }
+  },
+  "lewisham": {
+    "thumb": {
+      "srcset": "/img/optimized/lewisham/thumb-320.webp 320w, /img/optimized/lewisham/thumb-640.webp 640w, /img/optimized/lewisham/thumb-960.webp 960w, /img/optimized/lewisham/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/lewisham/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/lewisham/hero-640.webp 640w, /img/optimized/lewisham/hero-960.webp 960w, /img/optimized/lewisham/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/lewisham/hero-1280.jpg"
+    }
+  },
+  "lumishore": {
+    "thumb": {
+      "srcset": "/img/optimized/lumishore/thumb-320.webp 320w, /img/optimized/lumishore/thumb-640.webp 640w, /img/optimized/lumishore/thumb-960.webp 960w, /img/optimized/lumishore/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/lumishore/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/lumishore/hero-640.webp 640w, /img/optimized/lumishore/hero-960.webp 960w, /img/optimized/lumishore/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/lumishore/hero-1280.jpg"
+    }
+  },
+  "mars": {
+    "thumb": {
+      "srcset": "/img/optimized/mars/thumb-320.webp 320w, /img/optimized/mars/thumb-640.webp 640w, /img/optimized/mars/thumb-960.webp 960w, /img/optimized/mars/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/mars/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/mars/hero-640.webp 640w, /img/optimized/mars/hero-960.webp 960w, /img/optimized/mars/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/mars/hero-1280.jpg"
+    }
+  },
+  "msconsultants": {
+    "thumb": {
+      "srcset": "/img/optimized/msconsultants/thumb-320.webp 320w, /img/optimized/msconsultants/thumb-640.webp 640w, /img/optimized/msconsultants/thumb-960.webp 960w, /img/optimized/msconsultants/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/msconsultants/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/msconsultants/hero-640.webp 640w, /img/optimized/msconsultants/hero-960.webp 960w, /img/optimized/msconsultants/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/msconsultants/hero-1280.jpg"
+    }
+  },
+  "newcastle": {
+    "thumb": {
+      "srcset": "/img/optimized/newcastle/thumb-320.webp 320w, /img/optimized/newcastle/thumb-640.webp 640w, /img/optimized/newcastle/thumb-960.webp 960w, /img/optimized/newcastle/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/newcastle/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/newcastle/hero-640.webp 640w, /img/optimized/newcastle/hero-960.webp 960w, /img/optimized/newcastle/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/newcastle/hero-1280.jpg"
+    }
+  },
+  "northampton": {
+    "thumb": {
+      "srcset": "/img/optimized/northampton/thumb-320.webp 320w, /img/optimized/northampton/thumb-640.webp 640w, /img/optimized/northampton/thumb-960.webp 960w, /img/optimized/northampton/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/northampton/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/northampton/hero-640.webp 640w, /img/optimized/northampton/hero-960.webp 960w, /img/optimized/northampton/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/northampton/hero-1280.jpg"
+    }
+  },
+  "nsomerset": {
+    "thumb": {
+      "srcset": "/img/optimized/nsomerset/thumb-320.webp 320w, /img/optimized/nsomerset/thumb-640.webp 640w, /img/optimized/nsomerset/thumb-960.webp 960w, /img/optimized/nsomerset/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/nsomerset/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/nsomerset/hero-640.webp 640w, /img/optimized/nsomerset/hero-960.webp 960w, /img/optimized/nsomerset/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/nsomerset/hero-1280.jpg"
+    }
+  },
+  "paws-hearts": {
+    "thumb": {
+      "srcset": "/img/optimized/paws-hearts/thumb-320.webp 320w, /img/optimized/paws-hearts/thumb-640.webp 640w, /img/optimized/paws-hearts/thumb-960.webp 960w, /img/optimized/paws-hearts/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/paws-hearts/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/paws-hearts/hero-640.webp 640w, /img/optimized/paws-hearts/hero-960.webp 960w, /img/optimized/paws-hearts/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/paws-hearts/hero-1280.jpg"
+    }
+  },
+  "pondergrove": {
+    "thumb": {
+      "srcset": "/img/optimized/pondergrove/thumb-320.webp 320w, /img/optimized/pondergrove/thumb-640.webp 640w, /img/optimized/pondergrove/thumb-960.webp 960w, /img/optimized/pondergrove/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/pondergrove/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/pondergrove/hero-640.webp 640w, /img/optimized/pondergrove/hero-960.webp 960w, /img/optimized/pondergrove/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/pondergrove/hero-1280.jpg"
+    }
+  },
+  "pure-html": {
+    "thumb": {
+      "srcset": "/img/optimized/pure-html/thumb-320.webp 320w, /img/optimized/pure-html/thumb-640.webp 640w, /img/optimized/pure-html/thumb-960.webp 960w, /img/optimized/pure-html/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/pure-html/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/pure-html/hero-640.webp 640w, /img/optimized/pure-html/hero-960.webp 960w, /img/optimized/pure-html/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/pure-html/hero-1280.jpg"
+    }
+  },
+  "quote-gen": {
+    "thumb": {
+      "srcset": "/img/optimized/quote-gen/thumb-320.webp 320w, /img/optimized/quote-gen/thumb-640.webp 640w, /img/optimized/quote-gen/thumb-960.webp 960w, /img/optimized/quote-gen/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/quote-gen/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/quote-gen/hero-640.webp 640w, /img/optimized/quote-gen/hero-960.webp 960w, /img/optimized/quote-gen/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/quote-gen/hero-1280.jpg"
+    }
+  },
+  "recipe-finder": {
+    "thumb": {
+      "srcset": "/img/optimized/recipe-finder/thumb-320.webp 320w, /img/optimized/recipe-finder/thumb-640.webp 640w, /img/optimized/recipe-finder/thumb-960.webp 960w, /img/optimized/recipe-finder/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/recipe-finder/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/recipe-finder/hero-640.webp 640w, /img/optimized/recipe-finder/hero-960.webp 960w, /img/optimized/recipe-finder/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/recipe-finder/hero-1280.jpg"
+    }
+  },
+  "resinsonline": {
+    "thumb": {
+      "srcset": "/img/optimized/resinsonline/thumb-320.webp 320w, /img/optimized/resinsonline/thumb-640.webp 640w, /img/optimized/resinsonline/thumb-960.webp 960w, /img/optimized/resinsonline/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/resinsonline/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/resinsonline/hero-640.webp 640w, /img/optimized/resinsonline/hero-960.webp 960w, /img/optimized/resinsonline/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/resinsonline/hero-1280.jpg"
+    }
+  },
+  "responsive-layout": {
+    "thumb": {
+      "srcset": "/img/optimized/responsive-layout/thumb-320.webp 320w, /img/optimized/responsive-layout/thumb-640.webp 640w, /img/optimized/responsive-layout/thumb-960.webp 960w, /img/optimized/responsive-layout/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/responsive-layout/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/responsive-layout/hero-640.webp 640w, /img/optimized/responsive-layout/hero-960.webp 960w, /img/optimized/responsive-layout/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/responsive-layout/hero-1280.jpg"
+    }
+  },
+  "ressance": {
+    "thumb": {
+      "srcset": "/img/optimized/ressance/thumb-320.webp 320w, /img/optimized/ressance/thumb-640.webp 640w, /img/optimized/ressance/thumb-960.webp 960w, /img/optimized/ressance/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/ressance/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/ressance/hero-640.webp 640w, /img/optimized/ressance/hero-960.webp 960w, /img/optimized/ressance/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/ressance/hero-1280.jpg"
+    }
+  },
+  "robnor": {
+    "thumb": {
+      "srcset": "/img/optimized/robnor/thumb-320.webp 320w, /img/optimized/robnor/thumb-640.webp 640w, /img/optimized/robnor/thumb-960.webp 960w, /img/optimized/robnor/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/robnor/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/robnor/hero-640.webp 640w, /img/optimized/robnor/hero-960.webp 960w, /img/optimized/robnor/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/robnor/hero-1280.jpg"
+    }
+  },
+  "robofriend": {
+    "thumb": {
+      "srcset": "/img/optimized/robofriend/thumb-320.webp 320w, /img/optimized/robofriend/thumb-640.webp 640w, /img/optimized/robofriend/thumb-960.webp 960w, /img/optimized/robofriend/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/robofriend/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/robofriend/hero-640.webp 640w, /img/optimized/robofriend/hero-960.webp 960w, /img/optimized/robofriend/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/robofriend/hero-1280.jpg"
+    }
+  },
+  "robofriends": {
+    "thumb": {
+      "srcset": "/img/optimized/robofriends/thumb-320.webp 320w, /img/optimized/robofriends/thumb-640.webp 640w, /img/optimized/robofriends/thumb-960.webp 960w, /img/optimized/robofriends/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/robofriends/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/robofriends/hero-640.webp 640w, /img/optimized/robofriends/hero-960.webp 960w, /img/optimized/robofriends/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/robofriends/hero-1280.jpg"
+    }
+  },
+  "rotherham": {
+    "thumb": {
+      "srcset": "/img/optimized/rotherham/thumb-320.webp 320w, /img/optimized/rotherham/thumb-640.webp 640w, /img/optimized/rotherham/thumb-960.webp 960w, /img/optimized/rotherham/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/rotherham/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/rotherham/hero-640.webp 640w, /img/optimized/rotherham/hero-960.webp 960w, /img/optimized/rotherham/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/rotherham/hero-1280.jpg"
+    }
+  },
+  "runnymede": {
+    "thumb": {
+      "srcset": "/img/optimized/runnymede/thumb-320.webp 320w, /img/optimized/runnymede/thumb-640.webp 640w, /img/optimized/runnymede/thumb-960.webp 960w, /img/optimized/runnymede/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/runnymede/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/runnymede/hero-640.webp 640w, /img/optimized/runnymede/hero-960.webp 960w, /img/optimized/runnymede/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/runnymede/hero-1280.jpg"
+    }
+  },
+  "rushmoor": {
+    "thumb": {
+      "srcset": "/img/optimized/rushmoor/thumb-320.webp 320w, /img/optimized/rushmoor/thumb-640.webp 640w, /img/optimized/rushmoor/thumb-960.webp 960w, /img/optimized/rushmoor/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/rushmoor/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/rushmoor/hero-640.webp 640w, /img/optimized/rushmoor/hero-960.webp 960w, /img/optimized/rushmoor/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/rushmoor/hero-1280.jpg"
+    }
+  },
+  "securesystems": {
+    "thumb": {
+      "srcset": "/img/optimized/securesystems/thumb-320.webp 320w, /img/optimized/securesystems/thumb-640.webp 640w, /img/optimized/securesystems/thumb-960.webp 960w, /img/optimized/securesystems/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/securesystems/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/securesystems/hero-640.webp 640w, /img/optimized/securesystems/hero-960.webp 960w, /img/optimized/securesystems/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/securesystems/hero-1280.jpg"
+    }
+  },
+  "sharp": {
+    "thumb": {
+      "srcset": "/img/optimized/sharp/thumb-320.webp 320w, /img/optimized/sharp/thumb-640.webp 640w, /img/optimized/sharp/thumb-960.webp 960w, /img/optimized/sharp/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/sharp/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/sharp/hero-640.webp 640w, /img/optimized/sharp/hero-960.webp 960w, /img/optimized/sharp/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/sharp/hero-1280.jpg"
+    }
+  },
+  "shaw": {
+    "thumb": {
+      "srcset": "/img/optimized/shaw/thumb-320.webp 320w, /img/optimized/shaw/thumb-640.webp 640w, /img/optimized/shaw/thumb-960.webp 960w, /img/optimized/shaw/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/shaw/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/shaw/hero-640.webp 640w, /img/optimized/shaw/hero-960.webp 960w, /img/optimized/shaw/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/shaw/hero-1280.jpg"
+    }
+  },
+  "signup": {
+    "thumb": {
+      "srcset": "/img/optimized/signup/thumb-320.webp 320w, /img/optimized/signup/thumb-640.webp 640w, /img/optimized/signup/thumb-960.webp 960w, /img/optimized/signup/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/signup/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/signup/hero-640.webp 640w, /img/optimized/signup/hero-960.webp 960w, /img/optimized/signup/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/signup/hero-1280.jpg"
+    }
+  },
+  "smart-brain": {
+    "thumb": {
+      "srcset": "/img/optimized/smart-brain/thumb-320.webp 320w, /img/optimized/smart-brain/thumb-640.webp 640w, /img/optimized/smart-brain/thumb-960.webp 960w, /img/optimized/smart-brain/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/smart-brain/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/smart-brain/hero-640.webp 640w, /img/optimized/smart-brain/hero-960.webp 960w, /img/optimized/smart-brain/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/smart-brain/hero-1280.jpg"
+    }
+  },
+  "southwark": {
+    "thumb": {
+      "srcset": "/img/optimized/southwark/thumb-320.webp 320w, /img/optimized/southwark/thumb-640.webp 640w, /img/optimized/southwark/thumb-960.webp 960w, /img/optimized/southwark/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/southwark/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/southwark/hero-640.webp 640w, /img/optimized/southwark/hero-960.webp 960w, /img/optimized/southwark/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/southwark/hero-1280.jpg"
+    }
+  },
+  "sportsbook": {
+    "thumb": {
+      "srcset": "/img/optimized/sportsbook/thumb-320.webp 320w, /img/optimized/sportsbook/thumb-640.webp 640w, /img/optimized/sportsbook/thumb-960.webp 960w, /img/optimized/sportsbook/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/sportsbook/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/sportsbook/hero-640.webp 640w, /img/optimized/sportsbook/hero-960.webp 960w, /img/optimized/sportsbook/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/sportsbook/hero-1280.jpg"
+    }
+  },
+  "starwars": {
+    "thumb": {
+      "srcset": "/img/optimized/starwars/thumb-320.webp 320w, /img/optimized/starwars/thumb-640.webp 640w, /img/optimized/starwars/thumb-960.webp 960w, /img/optimized/starwars/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/starwars/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/starwars/hero-640.webp 640w, /img/optimized/starwars/hero-960.webp 960w, /img/optimized/starwars/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/starwars/hero-1280.jpg"
+    }
+  },
+  "stoke": {
+    "thumb": {
+      "srcset": "/img/optimized/stoke/thumb-320.webp 320w, /img/optimized/stoke/thumb-640.webp 640w, /img/optimized/stoke/thumb-960.webp 960w, /img/optimized/stoke/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/stoke/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/stoke/hero-640.webp 640w, /img/optimized/stoke/hero-960.webp 960w, /img/optimized/stoke/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/stoke/hero-1280.jpg"
+    }
+  },
+  "sutton": {
+    "thumb": {
+      "srcset": "/img/optimized/sutton/thumb-320.webp 320w, /img/optimized/sutton/thumb-640.webp 640w, /img/optimized/sutton/thumb-960.webp 960w, /img/optimized/sutton/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/sutton/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/sutton/hero-640.webp 640w, /img/optimized/sutton/hero-960.webp 960w, /img/optimized/sutton/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/sutton/hero-1280.jpg"
+    }
+  },
+  "synergy": {
+    "thumb": {
+      "srcset": "/img/optimized/synergy/thumb-320.webp 320w, /img/optimized/synergy/thumb-640.webp 640w, /img/optimized/synergy/thumb-960.webp 960w, /img/optimized/synergy/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/synergy/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/synergy/hero-640.webp 640w, /img/optimized/synergy/hero-960.webp 960w, /img/optimized/synergy/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/synergy/hero-1280.jpg"
+    }
+  },
+  "trusted-house": {
+    "thumb": {
+      "srcset": "/img/optimized/trusted-house/thumb-320.webp 320w, /img/optimized/trusted-house/thumb-640.webp 640w, /img/optimized/trusted-house/thumb-960.webp 960w, /img/optimized/trusted-house/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/trusted-house/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/trusted-house/hero-640.webp 640w, /img/optimized/trusted-house/hero-960.webp 960w, /img/optimized/trusted-house/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/trusted-house/hero-1280.jpg"
+    }
+  },
+  "website-startup": {
+    "thumb": {
+      "srcset": "/img/optimized/website-startup/thumb-320.webp 320w, /img/optimized/website-startup/thumb-640.webp 640w, /img/optimized/website-startup/thumb-960.webp 960w, /img/optimized/website-startup/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/website-startup/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/website-startup/hero-640.webp 640w, /img/optimized/website-startup/hero-960.webp 960w, /img/optimized/website-startup/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/website-startup/hero-1280.jpg"
+    }
+  },
+  "westlindsey": {
+    "thumb": {
+      "srcset": "/img/optimized/westlindsey/thumb-320.webp 320w, /img/optimized/westlindsey/thumb-640.webp 640w, /img/optimized/westlindsey/thumb-960.webp 960w, /img/optimized/westlindsey/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/westlindsey/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/westlindsey/hero-640.webp 640w, /img/optimized/westlindsey/hero-960.webp 960w, /img/optimized/westlindsey/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/westlindsey/hero-1280.jpg"
+    }
+  },
+  "wrank": {
+    "thumb": {
+      "srcset": "/img/optimized/wrank/thumb-320.webp 320w, /img/optimized/wrank/thumb-640.webp 640w, /img/optimized/wrank/thumb-960.webp 960w, /img/optimized/wrank/thumb-1280.webp 1280w",
+      "fallback": "/img/optimized/wrank/thumb-640.jpg"
+    },
+    "hero": {
+      "srcset": "/img/optimized/wrank/hero-640.webp 640w, /img/optimized/wrank/hero-960.webp 960w, /img/optimized/wrank/hero-1280.webp 1280w",
+      "fallback": "/img/optimized/wrank/hero-1280.jpg"
+    }
+  }
+}

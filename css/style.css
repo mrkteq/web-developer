@@ -177,55 +177,125 @@ p { margin-bottom: var(--space-md); }
   transition: transform 0.3s ease;
 }
 
-/* Project Slider */
-.project-slider-container {
-  position: relative;
-  width: 100%;
-  padding: 0 4rem;
-  overflow: hidden;
-}
-
-.project-slider {
-  display: flex;
+/* Project Grid Gallery */
+.project-grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: var(--space-md);
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  padding: var(--space-md) 0;
-  scroll-snap-type: x mandatory;
 }
 
-.project-slider::-webkit-scrollbar {
-  display: none;
-}
-
-.thumbnail {
-  width: 160px;
-  height: 100px;
-  border-radius: 8px;
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: var(--space-sm);
   cursor: pointer;
-  opacity: 0.75;
-  transition: transform 0.25s ease, opacity 0.25s ease, box-shadow 0.25s ease;
-  flex-shrink: 0;
-  background-color: var(--surface-tint-2);
-  scroll-snap-align: center;
-  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.thumbnail:hover,
-.thumbnail:focus-visible {
-  opacity: 1;
-  transform: scale(1.04);
-  box-shadow: 0 6px 16px rgba(0,0,0,.18);
+.project-card:hover,
+.project-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
   outline: 3px solid var(--color-primary);
   outline-offset: 2px;
 }
 
-.thumbnail.active {
+.project-card-thumb {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: var(--surface-tint-2);
+}
+
+.project-card-title {
+  font-weight: 600;
+  color: var(--text-color);
+  padding-inline: var(--space-xs);
+  padding-bottom: var(--space-xs);
+}
+
+.project-grid-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+/* Pagination dots */
+.project-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-primary);
+}
+
+.project-dots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  opacity: 0.7;
+  cursor: pointer;
+  padding: 0;
+  line-height: 0;
+  transition: all 150ms ease;
+}
+
+.project-dots .dot:hover {
   opacity: 1;
-  transform: scale(1.06);
-  box-shadow: 0 8px 20px rgba(0,0,0,.22);
+}
+
+.project-dots .dot.active {
+  background: var(--color-primary);
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
+
+.project-dots .dot:focus-visible {
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 2px;
+}
+
+/* Filter chips */
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+  justify-content: center;
+}
+
+.filter-chip {
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  border: 1px solid var(--color-primary);
+  background: #ffffff;
+  color: var(--color-primary);
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.filter-chip[aria-pressed="true"],
+.filter-chip:hover {
+  background: var(--color-primary);
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.filter-chip:focus-visible {
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 2px;
 }
 
 /* ==========================================================================
@@ -425,10 +495,24 @@ footer.site-footer a:focus {
     margin: 0 auto;
   }
   
-  .project-slider-container {
+  /* Grid spans full width under featured */
+  .project-grid-gallery {
     grid-column: 1 / -1;
-    grid-row: 3 / 4;
   }
+}
+
+@media (min-width: 480px) {
+  .project-grid-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+  .project-card-thumb { height: 130px; }
+}
+
+@media (min-width: 768px) {
+  .project-grid-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  .project-card-thumb { height: 140px; }
 }
 
 .blog-note {

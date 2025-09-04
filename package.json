@@ -1,0 +1,12 @@
+{
+  "name": "marktucker-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site responsive image pipeline",
+  "scripts": {
+    "build:images": "node tools/build-images.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.4"
+  }
+}
