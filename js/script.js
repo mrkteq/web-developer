@@ -1,59 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Theme controller: supports system preference, user override, and Safari-safe color-scheme
-  (function setupTheme() {
-    const STORAGE_KEY = 'theme-preference';
-    const metaTheme = document.getElementById('meta-theme-color');
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
 
-    function applyTheme(theme) {
-      const root = document.documentElement;
-      if (theme === 'light' || theme === 'dark') {
-        root.setAttribute('data-theme', theme);
-      } else {
-        root.removeAttribute('data-theme');
-      }
-      // Sync meta theme-color for iOS Safari address bar
-      try {
-        if (metaTheme) {
-          const isDark = (theme === 'dark') || (!theme && prefersDark.matches);
-          metaTheme.setAttribute('content', isDark ? '#0B1220' : '#1296E6');
-        }
-      } catch (_) {}
-    }
-
-    function storedPreference() {
-      try { return localStorage.getItem(STORAGE_KEY); } catch (_) { return null; }
-    }
-
-    function persistPreference(theme) {
-      try {
-        if (theme) localStorage.setItem(STORAGE_KEY, theme);
-        else localStorage.removeItem(STORAGE_KEY);
-      } catch (_) {}
-    }
-
-    // Initial apply
-    applyTheme(storedPreference());
-
-    // Reflect OS changes only when no explicit user choice
-    if (prefersDark && prefersDark.addEventListener) {
-      prefersDark.addEventListener('change', () => {
-        if (!storedPreference()) applyTheme(null);
-      });
-    }
-
-    // Toggle button
-    const toggle = document.getElementById('theme-toggle');
-    if (toggle) {
-      toggle.addEventListener('click', () => {
-        const current = document.documentElement.getAttribute('data-theme');
-        const next = current === 'dark' ? 'light' : current === 'light' ? null : 'dark';
-        applyTheme(next);
-        persistPreference(next);
-        toggle.setAttribute('aria-pressed', String(next === 'dark'));
-      });
-    }
-  })();
   const featuredImage = document.getElementById('featured-project');
   const projectTitle = document.querySelector('.project-content h3');
   const projectDescription = document.querySelector('.project-content p');
