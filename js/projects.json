@@ -22,7 +22,7 @@
   },
   {
     "slug": "aylesbury",
-    "title": "Aylesbury",
+    "title": "Aylesbury Vale",
     "images": {
       "thumb": { "src": "/img/project-aylesbury.jpg" },
       "featured": { "src": "/img/project-aylesbury.jpg" },
@@ -121,11 +121,11 @@
   },
   {
     "slug": "dsg",
-    "title": "Dsgqs",
+    "title": "DSG Quantity Surveyors",
     "images": {
       "thumb": { "src": "/img/project-dsg.jpg" },
       "featured": { "src": "/img/project-dsg.jpg" },
-      "alt": "Dsgqs"
+      "alt": "DSG"
     }
   },
   {
@@ -139,7 +139,7 @@
   },
   {
     "slug": "ems",
-    "title": "Ems",
+    "title": "EMS",
     "images": {
       "thumb": { "src": "/img/project-ems.jpg" },
       "featured": { "src": "/img/project-ems.jpg" },
@@ -202,7 +202,7 @@
   },
   {
     "slug": "hartwood",
-    "title": "Hartwood",
+    "title": "Hartwood Oak",
     "images": {
       "thumb": { "src": "/img/project-hartwood.jpg" },
       "featured": { "src": "/img/project-hartwood.jpg" },
@@ -220,7 +220,7 @@
   },
   {
     "slug": "infodata",
-    "title": "Infodata",
+    "title": "Info Data",
     "images": {
       "thumb": { "src": "/img/project-infodata.jpg" },
       "featured": { "src": "/img/project-infodata.jpg" },
@@ -229,11 +229,11 @@
   },
   {
     "slug": "it-handyman",
-    "title": "It Handyman",
+    "title": "IT Handyman",
     "images": {
       "thumb": { "src": "/img/project-it-handyman.jpg" },
       "featured": { "src": "/img/project-it-handyman.jpg" },
-      "alt": "Ithandyman"
+      "alt": "IT Handyman"
     }
   },
   {
@@ -256,7 +256,7 @@
   },
   {
     "slug": "kraus",
-    "title": "Kraus",
+    "title": "Kraus & Naimer",
     "images": {
       "thumb": { "src": "/img/project-kraus.jpg" },
       "featured": { "src": "/img/project-kraus.jpg" },
@@ -301,7 +301,7 @@
   },
   {
     "slug": "mars",
-    "title": "Mars",
+    "title": "Martians Reunited",
     "images": {
       "thumb": { "src": "/img/project-mars.jpg" },
       "featured": { "src": "/img/project-mars.jpg" },
@@ -310,7 +310,7 @@
   },
   {
     "slug": "ms-consultants",
-    "title": "Ms Consultants",
+    "title": "MS Consultants",
     "images": {
       "thumb": { "src": "/img/project-ms-consultants.jpg" },
       "featured": { "src": "/img/project-ms-consultants.jpg" },
@@ -481,7 +481,7 @@
   },
   {
     "slug": "shaw",
-    "title": "Shaw",
+    "title": "Shaw Care",
     "images": {
       "thumb": { "src": "/img/project-shaw.jpg" },
       "featured": { "src": "/img/project-shaw.jpg" },
@@ -490,7 +490,7 @@
   },
   {
     "slug": "sign-up",
-    "title": "Signup",
+    "title": "Sign Up Layout",
     "images": {
       "thumb": { "src": "/img/project-sign-up.jpg" },
       "featured": { "src": "/img/project-sign-up.jpg" },
@@ -517,7 +517,7 @@
   },
   {
     "slug": "sports-book",
-    "title": "Sportsbook",
+    "title": "Sports Book",
     "images": {
       "thumb": { "src": "/img/project-sports-book.jpg" },
       "featured": { "src": "/img/project-sports-book.jpg" },
@@ -526,7 +526,7 @@
   },
   {
     "slug": "starwars-api",
-    "title": "Starwars Api",
+    "title": "Star Wars Api",
     "images": {
       "thumb": { "src": "/img/project-starwars-api.jpg" },
       "featured": { "src": "/img/project-starwars-api.jpg" },
