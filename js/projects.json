@@ -7,7 +7,7 @@
       "featured": { "src": "/img/project-pure-html-and-css.jpg" },
       "alt": "Pure Html"
     },
-    "description": "This is a simple static website built with just HTML and CSS. It features a responsive design, clean layout, and easy navigation. The site includes multiple sections such as ... It is optimized for performance and accessibility, ensuring a great user experience across all devices.",
+    "description": "This is a simple static website built with just HTML and CSS. It features a responsive design, clean layout, and easy navigation. The site includes multiple sections and is a great user experience across all devices.",
     "liveUrl": "https://marktucker-purehtmlco.netlify.app/",
     "sourceUrl": "https://github.com/mrkteq/marktucker-purehtmlco"
   },
