@@ -331,6 +331,11 @@ p { margin-bottom: var(--space-md); }
   background: var(--color-primary);
   color: var(--color-white);
   box-shadow: 0 1px 2px var(--shadow-color);
+  cursor: default;
+}
+
+.filter-chip:not([aria-pressed="true"]):hover {
+  cursor: pointer;
 }
 
 .filter-chip:focus-visible {
