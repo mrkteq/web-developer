@@ -14,20 +14,24 @@
   {
     "slug": "argyll",
     "title": "Argyll & Bute Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-argyll.jpg" },
       "featured": { "src": "/img/project-argyll.jpg" },
       "alt": "Argyll"
-    }
+    },
+    "liveUrl": "https://www.argyll-bute.gov.uk/"
   },
   {
     "slug": "aylesbury",
     "title": "Aylesbury Vale District Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-aylesbury.jpg" },
       "featured": { "src": "/img/project-aylesbury.jpg" },
       "alt": "Aylesbury"
-    }
+    },
+    "liveUrl": "https://www.buckinghamshire.gov.uk/"
   },
   {
     "slug": "bed-and-breakfast",
@@ -41,11 +45,13 @@
   {
     "slug": "bedfordshire",
     "title": "Central Bedfordshire Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-bedfordshire.jpg" },
       "featured": { "src": "/img/project-bedfordshire.jpg" },
       "alt": "Bedfordshire"
-    }
+    },
+    "liveUrl": "https://www.centralbedfordshire.gov.uk/"
   },
   {
     "slug": "background-generator",
@@ -59,6 +65,7 @@
   {
     "slug": "bridle",
     "title": "Bridle Insurance",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-bridle.jpg" },
       "featured": { "src": "/img/project-bridle.jpg" },
@@ -68,15 +75,18 @@
   {
     "slug": "bristol",
     "title": "Bristol City Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-bristol.jpg" },
       "featured": { "src": "/img/project-bristol.jpg" },
       "alt": "Bristol"
-    }
+    },
+    "liveUrl": "https://www.bristol.gov.uk/"
   },
   {
     "slug": "cherwell",
     "title": "Cherwell Laboratories",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-cherwell.jpg" },
       "featured": { "src": "/img/project-cherwell.jpg" },
@@ -104,15 +114,18 @@
   {
     "slug": "croydon",
     "title": "Croydon Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-croydon.jpg" },
       "featured": { "src": "/img/project-croydon.jpg" },
       "alt": "Croydon"
-    }
+    },
+    "liveUrl": "https://www.croydon.gov.uk/"
   },
   {
     "slug": "dendrite",
     "title": "Dendrite Clinical Systems",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-dendrite.jpg" },
       "featured": { "src": "/img/project-dendrite.jpg" },
@@ -122,6 +135,7 @@
   {
     "slug": "dsg",
     "title": "DSG Quantity Surveyors",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-dsg.jpg" },
       "featured": { "src": "/img/project-dsg.jpg" },
@@ -131,15 +145,18 @@
   {
     "slug": "edinburgh",
     "title": "Edinburgh Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-edinburgh.jpg" },
       "featured": { "src": "/img/project-edinburgh.jpg" },
       "alt": "Edinburgh"
-    }
+    },
+    "liveUrl": "https://www.edinburgh.gov.uk/"
   },
   {
     "slug": "ems",
     "title": "Electronic Manufacturing Solutions",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-ems.jpg" },
       "featured": { "src": "/img/project-ems.jpg" },
@@ -148,7 +165,8 @@
   },
   {
     "slug": "fordway",
-    "title": "Fordway",
+    "title": "Fordway Management Systems",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-fordway.jpg" },
       "featured": { "src": "/img/project-fordway.jpg" },
@@ -158,6 +176,7 @@
   {
     "slug": "gingerlilly",
     "title": "Gingerlily Silk Bedding",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-gingerlilly.jpg" },
       "featured": { "src": "/img/project-gingerlilly.jpg" },
@@ -167,24 +186,29 @@
   {
     "slug": "hackney",
     "title": "Hackney Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-hackney.jpg" },
       "featured": { "src": "/img/project-hackney.jpg" },
       "alt": "Hackney"
-    }
+    },
+    "liveUrl": "https://www.hackney.gov.uk/"
   },
   {
     "slug": "haringey",
     "title": "Haringey Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-haringey.jpg" },
       "featured": { "src": "/img/project-haringey.jpg" },
       "alt": "Haringey"
-    }
+    },
+    "liveUrl": "https://www.haringey.gov.uk/"
   },
   {
     "slug": "harling-menzies",
     "title": "Harling Menzies Executive Search",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-harling-menzies.jpg" },
       "featured": { "src": "/img/project-harling-menzies.jpg" },
@@ -194,15 +218,18 @@
   {
     "slug": "harrow",
     "title": "Harrow Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-harrow.jpg" },
       "featured": { "src": "/img/project-harrow.jpg" },
       "alt": "Harrow"
-    }
+    },
+    "liveUrl": "https://www.harrow.gov.uk/"
   },
   {
     "slug": "hartwood",
     "title": "Hartwood Oak Buildings",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-hartwood.jpg" },
       "featured": { "src": "/img/project-hartwood.jpg" },
@@ -221,6 +248,7 @@
   {
     "slug": "infodata",
     "title": "Info Data Hospitality Systems",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-infodata.jpg" },
       "featured": { "src": "/img/project-infodata.jpg" },
@@ -239,6 +267,7 @@
   {
     "slug": "julian-perry",
     "title": "Julian Perry Advanced Dental Solutions",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-julian-perry.jpg" },
       "featured": { "src": "/img/project-julian-perry.jpg" },
@@ -248,6 +277,7 @@
   {
     "slug": "kimal",
     "title": "Kimal Healthcare Innovation",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-kimal.jpg" },
       "featured": { "src": "/img/project-kimal.jpg" },
@@ -257,6 +287,7 @@
   {
     "slug": "kraus",
     "title": "Kraus & Naimer",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-kraus.jpg" },
       "featured": { "src": "/img/project-kraus.jpg" },
@@ -266,15 +297,18 @@
   {
     "slug": "lambeth",
     "title": "Lambeth Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-lambeth.jpg" },
       "featured": { "src": "/img/project-lambeth.jpg" },
       "alt": "Lambeth"
-    }
+    },
+    "liveUrl": "https://www.lambeth.gov.uk/"
   },
   {
     "slug": "laurence-king",
     "title": "Laurence King Publishing",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-laurence-king.jpg" },
       "featured": { "src": "/img/project-laurence-king.jpg" },
@@ -284,15 +318,18 @@
   {
     "slug": "lewisham",
     "title": "Lewisham Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-lewisham.jpg" },
       "featured": { "src": "/img/project-lewisham.jpg" },
       "alt": "Lewisham"
-    }
+    },
+    "liveUrl": "https://www.lewisham.gov.uk/"
   },
   {
     "slug": "lumishore",
     "title": "Lumishore Underwater Lighting",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-lumishore.jpg" },
       "featured": { "src": "/img/project-lumishore.jpg" },
@@ -302,6 +339,7 @@
   {
     "slug": "mars",
     "title": "Martians Reunited",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-mars.jpg" },
       "featured": { "src": "/img/project-mars.jpg" },
@@ -311,6 +349,7 @@
   {
     "slug": "ms-consultants",
     "title": "MS Consultants Financial Services Training",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-ms-consultants.jpg" },
       "featured": { "src": "/img/project-ms-consultants.jpg" },
@@ -320,29 +359,35 @@
   {
     "slug": "newcastle",
     "title": "Newcastle Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-newcastle.jpg" },
       "featured": { "src": "/img/project-newcastle.jpg" },
       "alt": "Newcastle"
-    }
+    },
+    "liveUrl": "https://www.newcastle.gov.uk/"
   },
   {
     "slug": "northampton",
     "title": "Northampton Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-northampton.jpg" },
       "featured": { "src": "/img/project-northampton.jpg" },
       "alt": "Northampton"
-    }
+    },
+    "liveUrl": "https://www.westnorthants.gov.uk/"
   },
   {
     "slug": "north-somerset",
     "title": "North Somerset Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-north-somerset.jpg" },
       "featured": { "src": "/img/project-north-somerset.jpg" },
       "alt": "Nsomerset"
-    }
+    },
+    "liveUrl": "https://www.n-somerset.gov.uk/"
   },
   {
     "slug": "paws-and-hearts",
@@ -356,6 +401,7 @@
   {
     "slug": "pondergrove",
     "title": "Pondergrove Management Systems",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-pondergrove.jpg" },
       "featured": { "src": "/img/project-pondergrove.jpg" },
@@ -383,6 +429,7 @@
   {
     "slug": "resins-online",
     "title": "Resins Online",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-resins-online.jpg" },
       "featured": { "src": "/img/project-resins-online.jpg" },
@@ -401,6 +448,7 @@
   {
     "slug": "ressance",
     "title": "Ressance Homes",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-ressance.jpg" },
       "featured": { "src": "/img/project-ressance.jpg" },
@@ -410,6 +458,7 @@
   {
     "slug": "robnor-resins",
     "title": "Robnor Resins",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-robnor-resins.jpg" },
       "featured": { "src": "/img/project-robnor-resins.jpg" },
@@ -437,33 +486,40 @@
   {
     "slug": "rotherham",
     "title": "Rotherham Metropolitan Borough Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-rotherham.jpg" },
       "featured": { "src": "/img/project-rotherham.jpg" },
       "alt": "Rotherham"
-    }
+    },
+    "liveUrl": "https://www.rotherham.gov.uk/"
   },
   {
     "slug": "runnymede",
     "title": "Runnymede Borough Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-runnymede.jpg" },
       "featured": { "src": "/img/project-runnymede.jpg" },
       "alt": "Runnymede"
-    }
+    },
+    "liveUrl": "https://www.runnymede.gov.uk/"
   },
   {
     "slug": "rushmoor",
     "title": "Rushmoor Borough Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-rushmoor.jpg" },
       "featured": { "src": "/img/project-rushmoor.jpg" },
       "alt": "Rushmoor"
-    }
+    },
+    "liveUrl": "https://www.rushmoor.gov.uk/"
   },
   {
     "slug": "secure-systems",
     "title": "Secure Systems",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-secure-systems.jpg" },
       "featured": { "src": "/img/project-secure-systems.jpg" },
@@ -473,6 +529,7 @@
   {
     "slug": "sharp",
     "title": "Sharp",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-sharp.jpg" },
       "featured": { "src": "/img/project-sharp.jpg" },
@@ -482,11 +539,13 @@
   {
     "slug": "shaw",
     "title": "Shaw Healthcare",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-shaw.jpg" },
       "featured": { "src": "/img/project-shaw.jpg" },
       "alt": "Shaw"
-    }
+    },
+    "liveUrl": "https://www.shaw.co.uk/"
   },
   {
     "slug": "sign-up",
@@ -509,11 +568,13 @@
   {
     "slug": "southwark",
     "title": "Southwark Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-southwark.jpg" },
       "featured": { "src": "/img/project-southwark.jpg" },
       "alt": "Southwark"
-    }
+    },
+    "liveUrl": "https://www.southwark.gov.uk/"
   },
   {
     "slug": "sports-book",
@@ -536,24 +597,29 @@
   {
     "slug": "stoke-on-trent",
     "title": "City of Stoke on Trent Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-stoke-on-trent.jpg" },
       "featured": { "src": "/img/project-stoke-on-trent.jpg" },
       "alt": "Stoke"
-    }
+    },
+    "liveUrl": "https://www.stoke.gov.uk/"
   },
   {
     "slug": "sutton",
     "title": "London Borough of Sutton Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-sutton.jpg" },
       "featured": { "src": "/img/project-sutton.jpg" },
       "alt": "Sutton"
-    }
+    },
+    "liveUrl": "https://www.sutton.gov.uk/"
   },
   {
     "slug": "synergy",
     "title": "Synergy Digital Marketing Agency",
+    "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
     "images": {
       "thumb": { "src": "/img/project-synergy.jpg" },
       "featured": { "src": "/img/project-synergy.jpg" },
@@ -581,11 +647,13 @@
   {
     "slug": "west-lindsey",
     "title": "West Lindsey District Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
     "images": {
       "thumb": { "src": "/img/project-west-lindsey.jpg" },
       "featured": { "src": "/img/project-west-lindsey.jpg" },
       "alt": "Westlindsey"
-    }
+    },
+    "liveUrl": "https://www.west-lindsey.gov.uk/"
   },
   {
     "slug": "reviews-aggregator",
