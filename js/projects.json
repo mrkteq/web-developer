@@ -1,7 +1,7 @@
 [
   {
     "slug": "pure-html-and-css",
-    "title": "Pure HTML and CSS",
+    "title": "Pure HTML and CSS Websites",
     "images": {
       "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
       "featured": { "src": "/img/project-pure-html-and-css.jpg" },
@@ -31,7 +31,7 @@
   },
   {
     "slug": "bed-and-breakfast",
-    "title": "Bed and Breakfast",
+    "title": "Bed and Breakfast Demo",
     "images": {
       "thumb": { "src": "/img/project-bed-and-breakfast.jpg" },
       "featured": { "src": "/img/project-bed-and-breakfast.jpg" },
@@ -40,7 +40,7 @@
   },
   {
     "slug": "bedfordshire",
-    "title": "Bedfordshire",
+    "title": "Central Bedfordshire Council",
     "images": {
       "thumb": { "src": "/img/project-bedfordshire.jpg" },
       "featured": { "src": "/img/project-bedfordshire.jpg" },
@@ -58,7 +58,7 @@
   },
   {
     "slug": "bridle",
-    "title": "Bridle",
+    "title": "Bridle Insurance",
     "images": {
       "thumb": { "src": "/img/project-bridle.jpg" },
       "featured": { "src": "/img/project-bridle.jpg" },
@@ -67,7 +67,7 @@
   },
   {
     "slug": "bristol",
-    "title": "Bristol",
+    "title": "Bristol City Council",
     "images": {
       "thumb": { "src": "/img/project-bristol.jpg" },
       "featured": { "src": "/img/project-bristol.jpg" },
@@ -76,7 +76,7 @@
   },
   {
     "slug": "cherwell",
-    "title": "Cherwell",
+    "title": "Cherwell Laboratories",
     "images": {
       "thumb": { "src": "/img/project-cherwell.jpg" },
       "featured": { "src": "/img/project-cherwell.jpg" },
@@ -85,7 +85,7 @@
   },
   {
     "slug": "coastal-calm",
-    "title": "Coastal Calm",
+    "title": "Coastal Calm Retreat Website Demo",
     "images": {
       "thumb": { "src": "/img/project-coastal-calm.jpg" },
       "featured": { "src": "/img/project-coastal-calm.jpg" },
@@ -94,7 +94,7 @@
   },
   {
     "slug": "countries-api",
-    "title": "Countries Api",
+    "title": "Countries REST Api",
     "images": {
       "thumb": { "src": "/img/project-countries-api.jpg" },
       "featured": { "src": "/img/project-countries-api.jpg" },
@@ -112,7 +112,7 @@
   },
   {
     "slug": "dendrite",
-    "title": "Dendrite",
+    "title": "Dendrite Clinical Systems",
     "images": {
       "thumb": { "src": "/img/project-dendrite.jpg" },
       "featured": { "src": "/img/project-dendrite.jpg" },
@@ -130,7 +130,7 @@
   },
   {
     "slug": "edinburgh",
-    "title": "Edinburgh",
+    "title": "Edinburgh Council",
     "images": {
       "thumb": { "src": "/img/project-edinburgh.jpg" },
       "featured": { "src": "/img/project-edinburgh.jpg" },
@@ -139,7 +139,7 @@
   },
   {
     "slug": "ems",
-    "title": "EMS",
+    "title": "Electronic Manufacturing Solutions",
     "images": {
       "thumb": { "src": "/img/project-ems.jpg" },
       "featured": { "src": "/img/project-ems.jpg" },
@@ -157,7 +157,7 @@
   },
   {
     "slug": "gingerlilly",
-    "title": "Gingerlilly",
+    "title": "Gingerlily Silk Bedding",
     "images": {
       "thumb": { "src": "/img/project-gingerlilly.jpg" },
       "featured": { "src": "/img/project-gingerlilly.jpg" },
@@ -166,7 +166,7 @@
   },
   {
     "slug": "hackney",
-    "title": "Hackney",
+    "title": "Hackney Council",
     "images": {
       "thumb": { "src": "/img/project-hackney.jpg" },
       "featured": { "src": "/img/project-hackney.jpg" },
@@ -175,7 +175,7 @@
   },
   {
     "slug": "haringey",
-    "title": "Haringey",
+    "title": "Haringey Council",
     "images": {
       "thumb": { "src": "/img/project-haringey.jpg" },
       "featured": { "src": "/img/project-haringey.jpg" },
@@ -184,7 +184,7 @@
   },
   {
     "slug": "harling-menzies",
-    "title": "Harling Menzies",
+    "title": "Harling Menzies Executive Search",
     "images": {
       "thumb": { "src": "/img/project-harling-menzies.jpg" },
       "featured": { "src": "/img/project-harling-menzies.jpg" },
@@ -193,7 +193,7 @@
   },
   {
     "slug": "harrow",
-    "title": "Harrow",
+    "title": "Harrow Council",
     "images": {
       "thumb": { "src": "/img/project-harrow.jpg" },
       "featured": { "src": "/img/project-harrow.jpg" },
@@ -202,7 +202,7 @@
   },
   {
     "slug": "hartwood",
-    "title": "Hartwood Oak",
+    "title": "Hartwood Oak Buildings",
     "images": {
       "thumb": { "src": "/img/project-hartwood.jpg" },
       "featured": { "src": "/img/project-hartwood.jpg" },
@@ -211,7 +211,7 @@
   },
   {
     "slug": "heiko-reformas",
-    "title": "Heiko Reformas",
+    "title": "Building Renovation Specialist Website Demo",
     "images": {
       "thumb": { "src": "/img/project-heiko-reformas.jpg" },
       "featured": { "src": "/img/project-heiko-reformas.jpg" },
@@ -220,7 +220,7 @@
   },
   {
     "slug": "infodata",
-    "title": "Info Data",
+    "title": "Info Data Hospitality Systems",
     "images": {
       "thumb": { "src": "/img/project-infodata.jpg" },
       "featured": { "src": "/img/project-infodata.jpg" },
@@ -229,7 +229,7 @@
   },
   {
     "slug": "it-handyman",
-    "title": "IT Handyman",
+    "title": "IT Handyman Demo",
     "images": {
       "thumb": { "src": "/img/project-it-handyman.jpg" },
       "featured": { "src": "/img/project-it-handyman.jpg" },
@@ -238,7 +238,7 @@
   },
   {
     "slug": "julian-perry",
-    "title": "Julian Perry",
+    "title": "Julian Perry Advanced Dental Solutions",
     "images": {
       "thumb": { "src": "/img/project-julian-perry.jpg" },
       "featured": { "src": "/img/project-julian-perry.jpg" },
@@ -247,7 +247,7 @@
   },
   {
     "slug": "kimal",
-    "title": "Kimal",
+    "title": "Kimal Healthcare",
     "images": {
       "thumb": { "src": "/img/project-kimal.jpg" },
       "featured": { "src": "/img/project-kimal.jpg" },
@@ -265,7 +265,7 @@
   },
   {
     "slug": "lambeth",
-    "title": "Lambeth",
+    "title": "Lambeth Council",
     "images": {
       "thumb": { "src": "/img/project-lambeth.jpg" },
       "featured": { "src": "/img/project-lambeth.jpg" },
@@ -274,7 +274,7 @@
   },
   {
     "slug": "laurence-king",
-    "title": "Laurence King",
+    "title": "Laurence King Publishing",
     "images": {
       "thumb": { "src": "/img/project-laurence-king.jpg" },
       "featured": { "src": "/img/project-laurence-king.jpg" },
@@ -283,7 +283,7 @@
   },
   {
     "slug": "lewisham",
-    "title": "Lewisham",
+    "title": "Lewisham Council",
     "images": {
       "thumb": { "src": "/img/project-lewisham.jpg" },
       "featured": { "src": "/img/project-lewisham.jpg" },
@@ -292,7 +292,7 @@
   },
   {
     "slug": "lumishore",
-    "title": "Lumishore",
+    "title": "Lumishore Underwater Lighting",
     "images": {
       "thumb": { "src": "/img/project-lumishore.jpg" },
       "featured": { "src": "/img/project-lumishore.jpg" },
@@ -310,7 +310,7 @@
   },
   {
     "slug": "ms-consultants",
-    "title": "MS Consultants",
+    "title": "MS Consultants Financial Services Training",
     "images": {
       "thumb": { "src": "/img/project-ms-consultants.jpg" },
       "featured": { "src": "/img/project-ms-consultants.jpg" },
@@ -319,7 +319,7 @@
   },
   {
     "slug": "newcastle",
-    "title": "Newcastle",
+    "title": "Newcastle Council",
     "images": {
       "thumb": { "src": "/img/project-newcastle.jpg" },
       "featured": { "src": "/img/project-newcastle.jpg" },
@@ -328,7 +328,7 @@
   },
   {
     "slug": "northampton",
-    "title": "Northampton",
+    "title": "Northampton Council",
     "images": {
       "thumb": { "src": "/img/project-northampton.jpg" },
       "featured": { "src": "/img/project-northampton.jpg" },
@@ -337,7 +337,7 @@
   },
   {
     "slug": "north-somerset",
-    "title": "North Somerset",
+    "title": "North Somerset Council",
     "images": {
       "thumb": { "src": "/img/project-north-somerset.jpg" },
       "featured": { "src": "/img/project-north-somerset.jpg" },
@@ -346,7 +346,7 @@
   },
   {
     "slug": "paws-and-hearts",
-    "title": "Paws and Hearts",
+    "title": "Paws and Hearts Demo",
     "images": {
       "thumb": { "src": "/img/project-paws-and-hearts.jpg" },
       "featured": { "src": "/img/project-paws-and-hearts.jpg" },
