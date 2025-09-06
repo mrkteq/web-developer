@@ -1,17 +1,5 @@
 [
   {
-    "slug": "pure-html-and-css",
-    "title": "Pure HTML and CSS Websites Demo",
-    "images": {
-      "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
-      "featured": { "src": "/img/project-pure-html-and-css.jpg" },
-      "alt": "Pure Html"
-    },
-    "description": "This is a simple static website built with just HTML and CSS. It features a responsive design, clean layout, and easy navigation. The site includes multiple sections and is a great user experience across all devices.",
-    "liveUrl": "https://marktucker-purehtmlco.netlify.app/",
-    "sourceUrl": "https://github.com/mrkteq/marktucker-purehtmlco"
-  },
-  {
     "slug": "argyll",
     "title": "Argyll & Bute Council",
     "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
@@ -34,15 +22,6 @@
     "liveUrl": "https://www.buckinghamshire.gov.uk/"
   },
   {
-    "slug": "bed-and-breakfast",
-    "title": "Bed and Breakfast Demo",
-    "images": {
-      "thumb": { "src": "/img/project-bed-and-breakfast.jpg" },
-      "featured": { "src": "/img/project-bed-and-breakfast.jpg" },
-      "alt": "Bed and Breakfast"
-    }
-  },
-  {
     "slug": "bedfordshire",
     "title": "Central Bedfordshire Council",
     "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
@@ -52,15 +31,6 @@
       "alt": "Bedfordshire"
     },
     "liveUrl": "https://www.centralbedfordshire.gov.uk/"
-  },
-  {
-    "slug": "background-generator",
-    "title": "Background Generator Demo",
-    "images": {
-      "thumb": { "src": "/img/project-background-generator.jpg" },
-      "featured": { "src": "/img/project-background-generator.jpg" },
-      "alt": "Background Generator"
-    }
   },
   {
     "slug": "bridle",
@@ -91,24 +61,6 @@
       "thumb": { "src": "/img/project-cherwell.jpg" },
       "featured": { "src": "/img/project-cherwell.jpg" },
       "alt": "Cherwell"
-    }
-  },
-  {
-    "slug": "coastal-calm",
-    "title": "Coastal Calm Retreat Website Demo",
-    "images": {
-      "thumb": { "src": "/img/project-coastal-calm.jpg" },
-      "featured": { "src": "/img/project-coastal-calm.jpg" },
-      "alt": "Coastalcalm"
-    }
-  },
-  {
-    "slug": "countries-api",
-    "title": "Countries REST Api Demo",
-    "images": {
-      "thumb": { "src": "/img/project-countries-api.jpg" },
-      "featured": { "src": "/img/project-countries-api.jpg" },
-      "alt": "Countries Api"
     }
   },
   {
@@ -237,15 +189,6 @@
     }
   },
   {
-    "slug": "heiko-reformas",
-    "title": "Building Renovation Specialist Website Demo",
-    "images": {
-      "thumb": { "src": "/img/project-heiko-reformas.jpg" },
-      "featured": { "src": "/img/project-heiko-reformas.jpg" },
-      "alt": "Heiko Reformas"
-    }
-  },
-  {
     "slug": "infodata",
     "title": "Info Data Hospitality Systems",
     "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
@@ -253,15 +196,6 @@
       "thumb": { "src": "/img/project-infodata.jpg" },
       "featured": { "src": "/img/project-infodata.jpg" },
       "alt": "Infodata"
-    }
-  },
-  {
-    "slug": "it-handyman",
-    "title": "IT Handyman Demo",
-    "images": {
-      "thumb": { "src": "/img/project-it-handyman.jpg" },
-      "featured": { "src": "/img/project-it-handyman.jpg" },
-      "alt": "IT Handyman"
     }
   },
   {
@@ -390,15 +324,6 @@
     "liveUrl": "https://www.n-somerset.gov.uk/"
   },
   {
-    "slug": "paws-and-hearts",
-    "title": "Paws and Hearts Demo",
-    "images": {
-      "thumb": { "src": "/img/project-paws-and-hearts.jpg" },
-      "featured": { "src": "/img/project-paws-and-hearts.jpg" },
-      "alt": "Paws Hearts"
-    }
-  },
-  {
     "slug": "pondergrove",
     "title": "Pondergrove Management Systems",
     "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
@@ -409,24 +334,6 @@
     }
   },
   {
-    "slug": "quote-generator",
-    "title": "Quote Generator Demo",
-    "images": {
-      "thumb": { "src": "/img/project-quote-generator.jpg" },
-      "featured": { "src": "/img/project-quote-generator.jpg" },
-      "alt": "Quote Gen"
-    }
-  },
-  {
-    "slug": "recipe-finder",
-    "title": "Recipe Finder Demo",
-    "images": {
-      "thumb": { "src": "/img/project-recipe-finder.jpg" },
-      "featured": { "src": "/img/project-recipe-finder.jpg" },
-      "alt": "Recipe Finder"
-    }
-  },
-  {
     "slug": "resins-online",
     "title": "Resins Online",
     "description": "I built this website with html, css and javascript from a psd design. It features a responsive design, clean layout, and easy navigation. The site includes multiple pages and was optimised for performance and accessibility, ensuring a great user experience across all devices.",
@@ -434,15 +341,6 @@
       "thumb": { "src": "/img/project-resins-online.jpg" },
       "featured": { "src": "/img/project-resins-online.jpg" },
       "alt": "Resinsonline"
-    }
-  },
-  {
-    "slug": "responsive-layout",
-    "title": "Responsive UI Demo",
-    "images": {
-      "thumb": { "src": "/img/project-responsive-layout.jpg" },
-      "featured": { "src": "/img/project-responsive-layout.jpg" },
-      "alt": "Responsive Layout"
     }
   },
   {
@@ -463,24 +361,6 @@
       "thumb": { "src": "/img/project-robnor-resins.jpg" },
       "featured": { "src": "/img/project-robnor-resins.jpg" },
       "alt": "Robnor"
-    }
-  },
-  {
-    "slug": "robo-friend",
-    "title": "Robofriend Demo",
-    "images": {
-      "thumb": { "src": "/img/project-robofriend.jpg" },
-      "featured": { "src": "/img/project-robofriend.jpg" },
-      "alt": "Robofriend"
-    }
-  },
-  {
-    "slug": "robo-friends",
-    "title": "Robofriends Demo",
-    "images": {
-      "thumb": { "src": "/img/project-robo-friends.jpg" },
-      "featured": { "src": "/img/project-robo-friends.jpg" },
-      "alt": "Robofriends"
     }
   },
   {
@@ -548,24 +428,6 @@
     "liveUrl": "https://www.shaw.co.uk/"
   },
   {
-    "slug": "sign-up",
-    "title": "Sign-Up Form Demo",
-    "images": {
-      "thumb": { "src": "/img/project-sign-up.jpg" },
-      "featured": { "src": "/img/project-sign-up.jpg" },
-      "alt": "Signup"
-    }
-  },
-  {
-    "slug": "smart-brain",
-    "title": "Smart Brain App Demo",
-    "images": {
-      "thumb": { "src": "/img/project-smart-brain.jpg" },
-      "featured": { "src": "/img/project-smart-brain.jpg" },
-      "alt": "Smart Brain"
-    }
-  },
-  {
     "slug": "southwark",
     "title": "Southwark Council",
     "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
@@ -575,24 +437,6 @@
       "alt": "Southwark"
     },
     "liveUrl": "https://www.southwark.gov.uk/"
-  },
-  {
-    "slug": "sports-book",
-    "title": "Sports Book Demo",
-    "images": {
-      "thumb": { "src": "/img/project-sports-book.jpg" },
-      "featured": { "src": "/img/project-sports-book.jpg" },
-      "alt": "Sportsbook"
-    }
-  },
-  {
-    "slug": "starwars-api",
-    "title": "Star Wars Api Demo",
-    "images": {
-      "thumb": { "src": "/img/project-starwars-api.jpg" },
-      "featured": { "src": "/img/project-starwars-api.jpg" },
-      "alt": "Starwars"
-    }
   },
   {
     "slug": "stoke-on-trent",
@@ -627,6 +471,173 @@
     }
   },
   {
+    "slug": "west-lindsey",
+    "title": "West Lindsey District Council",
+    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
+    "images": {
+      "thumb": { "src": "/img/project-west-lindsey.jpg" },
+      "featured": { "src": "/img/project-west-lindsey.jpg" },
+      "alt": "Westlindsey"
+    },
+    "liveUrl": "https://www.west-lindsey.gov.uk/"
+  },
+  {
+    "slug": "bed-and-breakfast",
+    "title": "Bed and Breakfast Demo",
+    "images": {
+      "thumb": { "src": "/img/project-bed-and-breakfast.jpg" },
+      "featured": { "src": "/img/project-bed-and-breakfast.jpg" },
+      "alt": "Bed and Breakfast"
+    }
+  },
+  {
+    "slug": "background-generator",
+    "title": "Background Generator Demo",
+    "images": {
+      "thumb": { "src": "/img/project-background-generator.jpg" },
+      "featured": { "src": "/img/project-background-generator.jpg" },
+      "alt": "Background Generator"
+    }
+  },
+  {
+    "slug": "coastal-calm",
+    "title": "Coastal Calm Retreat Website Demo",
+    "images": {
+      "thumb": { "src": "/img/project-coastal-calm.jpg" },
+      "featured": { "src": "/img/project-coastal-calm.jpg" },
+      "alt": "Coastalcalm"
+    }
+  },
+  {
+    "slug": "countries-api",
+    "title": "Countries REST Api Demo",
+    "images": {
+      "thumb": { "src": "/img/project-countries-api.jpg" },
+      "featured": { "src": "/img/project-countries-api.jpg" },
+      "alt": "Countries Api"
+    }
+  },
+  {
+    "slug": "heiko-reformas",
+    "title": "Building Renovation Specialist Website Demo",
+    "images": {
+      "thumb": { "src": "/img/project-heiko-reformas.jpg" },
+      "featured": { "src": "/img/project-heiko-reformas.jpg" },
+      "alt": "Heiko Reformas"
+    }
+  },
+  {
+    "slug": "it-handyman",
+    "title": "IT Handyman Demo",
+    "images": {
+      "thumb": { "src": "/img/project-it-handyman.jpg" },
+      "featured": { "src": "/img/project-it-handyman.jpg" },
+      "alt": "IT Handyman"
+    }
+  },
+  {
+    "slug": "paws-and-hearts",
+    "title": "Paws and Hearts Demo",
+    "images": {
+      "thumb": { "src": "/img/project-paws-and-hearts.jpg" },
+      "featured": { "src": "/img/project-paws-and-hearts.jpg" },
+      "alt": "Paws Hearts"
+    }
+  },
+  {
+    "slug": "pure-html-and-css",
+    "title": "Pure HTML and CSS Websites Demo",
+    "images": {
+      "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
+      "featured": { "src": "/img/project-pure-html-and-css.jpg" },
+      "alt": "Pure Html"
+    },
+    "description": "This is a simple static website built with just HTML and CSS. It features a responsive design, clean layout, and easy navigation. The site includes multiple sections and is a great user experience across all devices.",
+    "liveUrl": "https://marktucker-purehtmlco.netlify.app/",
+    "sourceUrl": "https://github.com/mrkteq/marktucker-purehtmlco"
+  },
+  {
+    "slug": "quote-generator",
+    "title": "Quote Generator Demo",
+    "images": {
+      "thumb": { "src": "/img/project-quote-generator.jpg" },
+      "featured": { "src": "/img/project-quote-generator.jpg" },
+      "alt": "Quote Gen"
+    }
+  },
+  {
+    "slug": "recipe-finder",
+    "title": "Recipe Finder Demo",
+    "images": {
+      "thumb": { "src": "/img/project-recipe-finder.jpg" },
+      "featured": { "src": "/img/project-recipe-finder.jpg" },
+      "alt": "Recipe Finder"
+    }
+  },
+  {
+    "slug": "responsive-layout",
+    "title": "Responsive UI Demo",
+    "images": {
+      "thumb": { "src": "/img/project-responsive-layout.jpg" },
+      "featured": { "src": "/img/project-responsive-layout.jpg" },
+      "alt": "Responsive Layout"
+    }
+  },
+  {
+    "slug": "robo-friend",
+    "title": "Robofriend Demo",
+    "images": {
+      "thumb": { "src": "/img/project-robofriend.jpg" },
+      "featured": { "src": "/img/project-robofriend.jpg" },
+      "alt": "Robofriend"
+    }
+  },
+  {
+    "slug": "robo-friends",
+    "title": "Robofriends Demo",
+    "images": {
+      "thumb": { "src": "/img/project-robo-friends.jpg" },
+      "featured": { "src": "/img/project-robo-friends.jpg" },
+      "alt": "Robofriends"
+    }
+  },
+  {
+    "slug": "sign-up",
+    "title": "Sign-Up Form Demo",
+    "images": {
+      "thumb": { "src": "/img/project-sign-up.jpg" },
+      "featured": { "src": "/img/project-sign-up.jpg" },
+      "alt": "Signup"
+    }
+  },
+  {
+    "slug": "smart-brain",
+    "title": "Smart Brain App Demo",
+    "images": {
+      "thumb": { "src": "/img/project-smart-brain.jpg" },
+      "featured": { "src": "/img/project-smart-brain.jpg" },
+      "alt": "Smart Brain"
+    }
+  },
+  {
+    "slug": "sports-book",
+    "title": "Sports Book Demo",
+    "images": {
+      "thumb": { "src": "/img/project-sports-book.jpg" },
+      "featured": { "src": "/img/project-sports-book.jpg" },
+      "alt": "Sportsbook"
+    }
+  },
+  {
+    "slug": "starwars-api",
+    "title": "Star Wars Api Demo",
+    "images": {
+      "thumb": { "src": "/img/project-starwars-api.jpg" },
+      "featured": { "src": "/img/project-starwars-api.jpg" },
+      "alt": "Starwars"
+    }
+  },
+  {
     "slug": "trusted-house-and-pet-sitters",
     "title": "Trusted House and Pet Sitters Demo",
     "images": {
@@ -643,17 +654,6 @@
       "featured": { "src": "/img/project-website-startup.jpg" },
       "alt": "Website Startup"
     }
-  },
-  {
-    "slug": "west-lindsey",
-    "title": "West Lindsey District Council",
-    "description": "I contributed to the front-end development of council and public sector websites, supporting the creation of user-friendly and accessible interfaces. My work involved collaborating with designers and back-end developers to deliver seamless functionality, implementing responsive design for accessibility across devices, and optimising performance to improve user experience. I also endeavoured to ensure compliance with web accessibility standards to make the sites inclusive and usable for all audiences.",
-    "images": {
-      "thumb": { "src": "/img/project-west-lindsey.jpg" },
-      "featured": { "src": "/img/project-west-lindsey.jpg" },
-      "alt": "Westlindsey"
-    },
-    "liveUrl": "https://www.west-lindsey.gov.uk/"
   },
   {
     "slug": "reviews-aggregator",
