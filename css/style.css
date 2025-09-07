@@ -483,13 +483,8 @@ footer.site-footer a:focus {
   }
 
   h1, h2 {
-    /* color: var(--text-color); */
+    color: var(--text-color);
   }
-
-  /* Removed component overrides from dark block; tokens drive appearance */
-
-  /* Improve button focus visibility on dark backgrounds */
-  /* No component overrides; tokens above handle theme */
 }
 
 @media (prefers-reduced-motion: reduce) {
