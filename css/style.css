@@ -1,40 +1,4 @@
 /* ==========================================================================
-   Color Preview & Usage (for quick reference)
-   --------------------------------------------------------------------------
-   Primary (brand):        --color-primary: #1296E6 (original blue)
-   Primary light:          --color-primary-light: #40ABED
-   Primary dark:           --color-primary-dark: #0D75B3
-   Accent (fun):           --color-accent: #FF6B6B (coral)
-   Accent light:           --color-accent-light: #FFD1DC
-   Surfaces:               --surface (cards), --surface-muted (page bg)
-   Text:                   --text-color (titles), --text-color-light (body)
-
-   Defaults:
-   - Buttons on light surfaces: outlined primary → fill on hover
-   - Buttons on dark hero: white outlined → fill white on hover
-   - Thumbnails focus outline uses primary for better visibility on light
-   ==========================================================================
-*/
-/* --------------------------------------------------------------------------
-   Brand Tokens (HEX + HSL)
-   - Use HSL for nuanced tints/shades; keep hue consistent for brand cohesion
-   HEX                         HSL
-   --color-primary             #1296E6   hsl(204, 84%, 49%)
-   --color-primary-light       #40ABED   hsl(203, 82%, 60%)
-   --color-primary-dark        #0D75B3   hsl(203, 86%, 38%)
-   --color-accent              #FF6B6B   hsl(0, 100%, 71%)
-   --color-accent-light        #FFD1DC   hsl(348, 100%, 91%)
-   --text-color                #0F172A   hsl(222, 47%, 15%)
-   --text-color-light          #334155   hsl(213, 27%, 31%)
-   --surface                   #FCFCFE   hsl(240, 50%, 99%)
-   --surface-muted             #F4F6FB   hsl(225, 50%, 97%)
-   Notes:
-   - To create a softer hover, increase L (lightness) by 6–10%.
-   - For pressed/active states, decrease L by ~8% and increase S slightly.
-   - Keep hue within ±2° for brand consistency.
-   -------------------------------------------------------------------------- */
-
-/* ==========================================================================
    Base Styles & Reset
    ========================================================================== */
 
