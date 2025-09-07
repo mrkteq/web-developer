@@ -104,7 +104,7 @@
 }
 
 /* Explicit theme overrides via data-theme attribute (Safari-friendly) */
-:root[data-theme="light"] {
+/* :root[data-theme="light"] {
   color-scheme: light;
   --text-color: #0F172A;
   --text-color-light: #334155;
@@ -136,7 +136,7 @@
   --footer-text: #E9EEFF;
   --focus-color: var(--color-accent);
   --on-primary-text: var(--text-color);
-}
+} */
 
 /* ==========================================================================
    Base Elements
@@ -344,57 +344,6 @@ p { margin-bottom: var(--space-md); }
 }
 
 /* ==========================================================================
-   Navigation Components
-   ========================================================================== */
-
-/* Slider Navigation */
-.slider-nav {
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  color: var(--color-white);
-  padding: 0.5rem;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-  outline: 2px solid var(--color-white);
-  animation: slider-nav-pulse 1.2s infinite cubic-bezier(.4,1.3,.6,1);
-}
-
-.slider-nav:focus-visible {
-  outline: 3px solid var(--color-white);
-  outline-offset: 2px;
-}
-
-.slider-nav.disabled {
-  animation-play-state: paused;
-  opacity: 0.4;
-  cursor: default;
-  pointer-events: none;
-}
-
-.slider-nav:hover {
-  background-color: var(--color-white); 
-  color: var(--color-primary);
-}
-
-.slider-nav.prev { left: 0.5rem; }
-.slider-nav.next { right: 0.5rem; }
-
-@keyframes slider-nav-pulse {
-  0%   { transform: translateY(-50%) scale(1); }
-  50%  { transform: translateY(-50%) scale(1.18); }
-  100% { transform: translateY(-50%) scale(1); }
-}
-
-/* ==========================================================================
    Button Components
    ========================================================================== */
 
@@ -422,6 +371,7 @@ p { margin-bottom: var(--space-md); }
   transform: translateY(-2px);
   box-shadow: 0 6px 8px var(--shadow-color); 
   color: var(--color-white); 
+  cursor: pointer;
 }
 
 .button:focus-visible {
@@ -448,6 +398,11 @@ p { margin-bottom: var(--space-md); }
   background-color: var(--color-primary-dark);
   color: var(--text-color); 
   padding: var(--space-xl) 0;
+}
+
+#featured-project-heading,
+#more-projects-heading {
+  color: var(--on-primary-text);
 }
 
 #more-projects-heading {
@@ -599,7 +554,7 @@ footer.site-footer a:focus {
   }
 
   h1, h2 {
-    color: var(--text-color);
+    /* color: var(--text-color); */
   }
 
   /* Removed component overrides from dark block; tokens drive appearance */
