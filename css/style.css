@@ -67,41 +67,6 @@
   --font-size-h2: clamp(1.5rem, 4vw, 2.25rem);
 }
 
-/* Explicit theme overrides via data-theme attribute (Safari-friendly) */
-/* :root[data-theme="light"] {
-  color-scheme: light;
-  --text-color: #0F172A;
-  --text-color-light: #334155;
-  --surface: #FCFCFE;
-  --surface-muted: #F4F6FB;
-  --border-color: rgba(9, 17, 34, 0.08);
-  --shadow-color: rgba(9, 17, 34, 0.08);
-  --color-primary: #1296E6;
-  --color-primary-light: #40ABED;
-  --color-primary-dark: #0D75B3;
-  --color-accent: #FF6B6B;
-  --color-accent-light: #FFD1DC;
-  --footer-text: #E9EEFF;
-}
-
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --text-color: #E6ECF5;
-  --text-color-light: #C8D1E1;
-  --surface: #0B1220;
-  --surface-muted: #070B13;
-  --border-color: rgba(255, 255, 255, 0.12);
-  --shadow-color: rgba(0, 0, 0, 0.4);
-  --color-primary: #40ABED;
-  --color-primary-light: #7BC6F6;
-  --color-primary-dark: #0D75B3;
-  --color-accent: #FF6B6B;
-  --color-accent-light: #FFD1DC;
-  --footer-text: #E9EEFF;
-  --focus-color: var(--color-accent);
-  --on-primary-text: var(--text-color);
-} */
-
 /* ==========================================================================
    Base Elements
    ========================================================================== */
