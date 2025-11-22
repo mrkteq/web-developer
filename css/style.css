@@ -2,6 +2,10 @@
    Base Styles & Reset
    ========================================================================== */
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -408,6 +412,25 @@ footer.site-footer {
   display: inline-block;
   margin-right: var(--space-xs);
   vertical-align: middle;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  line-height: 0;
+}
+
+.footer-logo-link:hover,
+.footer-logo-link:focus {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.footer-logo-link:focus-visible {
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 footer.site-footer a {
