@@ -347,6 +347,17 @@ p { margin-bottom: var(--space-md); }
    Header & Footer Styles
    ========================================================================== */
 
+.top-banner {
+  background-color: var(--color-primary);
+  padding: 0.3em 1em;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
 header.site-header {
   width: 100%;
   background-color: var(--color-primary);
