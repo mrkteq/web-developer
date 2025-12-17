@@ -36,7 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'it-handyman': 'Apps & Demos',
     'paws-and-hearts': 'Apps & Demos',
     'trusted-house-and-pet-sitters': 'Apps & Demos',
-    'reviews-aggregator': 'Apps & Demos'
+    'reviews-aggregator': 'Apps & Demos',
+    'prank': 'Apps & Demos'
     // Everything else falls back to Client Sites
   };
 

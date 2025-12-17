@@ -12,6 +12,18 @@
     "sourceUrl": "https://github.com/mrkteq/marktucker-purehtmlco"
   },
   {
+    "slug": "prank",
+    "title": "Intentionally Terrible Portfolio Website",
+    "description": "A single-page website that deliberately breaks every web design rule to showcase AI prompting and direction skills. Click \"Make it Stop\" to reveal a professional explanation of the project. Features: Comic Sans + Papyrus typography, Clashing neon colors and animations, 1990s \"under construction\" aesthetic, Skill bars exceeding 100%, Impossible contact form, Hidden transformation to professional portfolio",
+    "images": {
+      "thumb": { "src": "/img/project-prank.jpg" },
+      "featured": { "src": "/img/project-prank.jpg" },
+      "alt": "Prank project"
+    },
+    "liveUrl": "https://mrkteq.github.io/prank/",
+    "sourceUrl": "https://github.com/mrkteq/prank"
+  },
+  {
     "slug": "responsive-layout",
     "title": "Responsive UI Demo",
     "description": "Building demo apps while studying with Zero to Mastery Academy and independently up-skilling after a career change. Focused on strengthening front-end and full-stack skills through hands-on practice with modern JavaScript, responsive design, and best practices. This is a demo.",
