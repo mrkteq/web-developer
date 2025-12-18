@@ -130,6 +130,7 @@ p { margin-bottom: var(--space-md); }
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: var(--space-lg);
+  margin-bottom: var(--space-xl);
   box-shadow: 0 10px 24px var(--shadow-color);
   color: var(--text-color);
 }
@@ -330,7 +331,7 @@ p { margin-bottom: var(--space-md); }
 .projects {
   background-color: var(--color-primary-dark);
   color: var(--text-color); 
-  padding: var(--space-xl) 0;
+  padding-bottom: var(--space-xl);
 }
 
 #featured-project-heading {
@@ -346,17 +347,6 @@ p { margin-bottom: var(--space-md); }
 /* ==========================================================================
    Header & Footer Styles
    ========================================================================== */
-
-.top-banner {
-  background-color: var(--color-primary);
-  padding: 0.3em 1em;
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
 
 header.site-header {
   width: 100%;
@@ -389,6 +379,7 @@ header.site-header {
 .header-text {
   font-size: clamp(1.1rem, 3vw, 1.5rem);
   line-height: 1.2;
+  letter-spacing: 8px;
 }
 
 header.site-header::after {
@@ -447,7 +438,7 @@ footer.site-footer {
 }
 
 .message-input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.096);
 }
 
 .message-input:focus {
@@ -512,7 +503,6 @@ footer.site-footer a:focus {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     max-width: 1200px;
-    margin: 1rem auto;
     gap: var(--space-xl);
   }
   
