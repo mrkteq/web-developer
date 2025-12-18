@@ -404,10 +404,9 @@ header.site-header::after {
 
 footer.site-footer {
   width: 100%;
-  /* Deep cool gradient */
   background: linear-gradient(90deg, var(--footer-bg-start) 70%, var(--footer-bg-end) 100%);
   color: var(--footer-text);
-  padding: var(--space-lg) 0 var(--space-md) 0;
+  padding: var(--space-xl) 0;
   text-align: center;
   font-size: 1.1rem;
   letter-spacing: 0.02em;
@@ -416,6 +415,50 @@ footer.site-footer {
   font-family: 'Segoe UI', 'Arial', sans-serif;
   box-shadow: 0 -2px 8px var(--shadow-color);
   position: relative;
+}
+
+.footer-message {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--footer-text);
+  margin-bottom: var(--space-md);
+  opacity: 0.9;
+}
+
+.contact-form {
+  display: flex;
+  gap: var(--space-sm);
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: var(--footer-text);
+  transition: all 0.3s ease;
+}
+
+.message-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.message-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--color-primary-light);
+}
+
+.send-button {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .footer-logo {
@@ -488,6 +531,21 @@ footer.site-footer a:focus {
   /* Grid spans full width under featured */
   .project-grid-gallery {
     grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .message-input {
+    width: 100%;
+  }
+  
+  .send-button {
+    width: 100%;
   }
 }
 

@@ -36,10 +36,11 @@
     
     <section class="hero">
         <div class="container">
-            <h1>Front-End Engineer</h1>
+            <h1>Front-end developer</h1>
             <section class="about">
-                <p>Based in Malaga, Spain, available for remote work with US, UK, and EU companies.</p>
-                <p>I've worked on responsive interfaces for high-traffic gambling platforms, 20+ UK council websites serving millions of users, and 15+ SME business sites. I'm currently rebuilding my technical foundation through hands-on JavaScript projects after a career transition and i'm a native English speaker with experience delivering accessible, WCAG-compliant interfaces across desktop and mobile platforms.</p>
+                <p>Based in Malaga, Spain, available for remote work.</p>
+                <p>Implemented responsive interfaces for high-traffic gambling platforms, 20+ UK council websites serving millions of users, and 15+ SME business sites. Current portfolio projects demonstrate HTML5, CSS3, and JavaScript capabilities with Lighthouse accessibility scores of 89-98.</p>
+                <p>Native English speaker with experience delivering WCAG 2.1 AA compliant interfaces across desktop and mobile platforms.</p>
                 <div class="button-group">
                     <a href="/resume.pdf" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Download resume">Resume</a>
                     <a href="https://www.linkedin.com/in/mark-anthony-tucker" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="View LinkedIn profile">LinkedIn</a>
@@ -58,8 +59,8 @@
                             <h3>Pure HTML CSS - Zero-JS Capability Demonstration</h3>
                             <p>Implemented CSS-only mobile navigation using checkbox pattern and :has() selector. Integrated View Transitions API for smooth page navigation. Built zero-JavaScript business site demonstrating modern CSS Grid and Flexbox layouts.</p>
                             <div class="button-group">
-                                <a href="https://marktucker-purehtmlco.netlify.app/" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open live site">View Live</a>
-                                <a href="https://github.com/mrkteq/marktucker-purehtmlco" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open source code on GitHub">View Source</a>
+                                <a href="https://marktucker-purehtmlco.netlify.app/" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open live site">Live Demo</a>
+                                <a href="https://github.com/mrkteq/marktucker-purehtmlco" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open source code on GitHub">Source Code</a>
                             </div>
                         </div>
                         
@@ -82,8 +83,19 @@
     </main>
     
     <footer class="site-footer">
-        Mark Tucker 
-        <span id="year"></span>
+        <div class="container">
+            <p class="footer-message">Send a message - reach me here</p>
+            <form class="contact-form" action="https://formspree.io/f/mbdrjklb" method="post">
+                <input 
+                    type="text" 
+                    name="message" 
+                    class="message-input" 
+                    placeholder="Your message"
+                    aria-label="Contact message"
+                    required>
+                <button type="submit" class="button blue send-button" aria-label="Send message">Send</button>
+            </form>
+        </div>
     </footer>
     
     <script data-goatcounter="https://marktucker-portfolio.goatcounter.com/count"
