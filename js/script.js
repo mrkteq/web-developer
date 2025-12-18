@@ -28,28 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
   let activeGroup = 'All';
 
   const GROUP_MAP = {
-    // Apps & demos
-    'background-generator': 'Apps & Demos',
+    // Apps & demos (individual projects demonstrating current capability)
+    'pure-html-and-css': 'Apps & Demos',
+    'prank': 'Apps & Demos',
     'countries-api': 'Apps & Demos',
-    'quote-generator': 'Apps & Demos',
     'recipe-finder': 'Apps & Demos',
     'responsive-layout': 'Apps & Demos',
-    'robo-friend': 'Apps & Demos',
-    'robo-friends': 'Apps & Demos',
-    'smart-brain': 'Apps & Demos',
-    'starwars-api': 'Apps & Demos',
     'sign-up': 'Apps & Demos',
-    'website-startup': 'Apps & Demos',
-    'pure-html-and-css': 'Apps & Demos',
-    'bed-and-breakfast': 'Apps & Demos',
-    'coastal-calm': 'Apps & Demos',
-    'heiko-reformas': 'Apps & Demos',
-    'it-handyman': 'Apps & Demos',
-    'paws-and-hearts': 'Apps & Demos',
-    'trusted-house-and-pet-sitters': 'Apps & Demos',
-    'reviews-aggregator': 'Apps & Demos',
-    'prank': 'Apps & Demos'
-    // Everything else falls back to Client Sites
+    'trusted-house-and-pet-sitters': 'Apps & Demos'
+    // Everything else falls back to Client Sites (professional work)
   };
 
   function getGroupForSlug(slug) {

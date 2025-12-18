@@ -1,7 +1,7 @@
 [
   {
     "slug": "pure-html-and-css",
-    "title": "Pure HTML and CSS Websites Demo",
+    "title": "Pure HTML and CSS Business Site",
     "description": "Implemented CSS-only mobile navigation using checkbox pattern and :has() selector. Integrated View Transitions API for smooth page navigation. Built zero-JavaScript business site demonstrating modern CSS Grid and Flexbox layouts.",
     "images": {
       "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
@@ -24,8 +24,32 @@
     "sourceUrl": "https://github.com/mrkteq/prank"
   },
   {
+    "slug": "countries-api",
+    "title": "Countries REST API Browser",
+    "description": "Integrated REST Countries API with fetch requests and async/await error handling. Built search and filter functionality with debounced input to reduce API calls by 85%. Implemented dynamic card rendering with template literals and responsive grid layout.",
+    "images": {
+      "thumb": { "src": "/img/project-countries-api.jpg" },
+      "featured": { "src": "/img/project-countries-api.jpg" },
+      "alt": "Countries Api"
+    },
+    "liveUrl": "https://api-for-countries.netlify.app/",
+    "sourceUrl": "https://github.com/mrkteq/rest-countries-api"
+  },
+  {
+    "slug": "recipe-finder",
+    "title": "Recipe Finder Application",
+    "description": "Integrated Edamam Recipe API with pagination and filter controls. Built async data fetching with loading states and error handling. Implemented responsive card grid with CSS Grid and optimized image loading using lazy loading attributes.",
+    "images": {
+      "thumb": { "src": "/img/project-recipe-finder.jpg" },
+      "featured": { "src": "/img/project-recipe-finder.jpg" },
+      "alt": "Recipe Finder"
+    },
+    "liveUrl": "https://kitchenhero.netlify.app/",
+    "sourceUrl": "https://github.com/mrkteq/kitchen-hero"
+  },
+  {
     "slug": "responsive-layout",
-    "title": "Responsive UI Demo",
+    "title": "Responsive UI Design",
     "description": "Built mobile-first responsive layout with CSS Grid and Flexbox. Implemented fluid typography using clamp() functions. Designed breakpoint system supporting mobile, tablet, and desktop viewports with touch and keyboard interaction support.",
     "images": {
       "thumb": { "src": "/img/project-responsive-layout.jpg" },
@@ -37,7 +61,7 @@
   },
   {
     "slug": "sign-up",
-    "title": "Sign-Up Form Demo",
+    "title": "Sign-Up Form with Validation",
     "description": "Developed form validation with real-time feedback using JavaScript event listeners. Implemented accessible error messaging with ARIA live regions. Built responsive form layout with CSS Grid and custom input styling.",
     "images": {
       "thumb": { "src": "/img/project-sign-up.jpg" },
@@ -48,32 +72,8 @@
     "sourceUrl": "https://github.com/mrkteq/newsletter-sign-up"
   },
   {
-    "slug": "countries-api",
-    "title": "Countries REST Api Demo",
-    "description": "Integrated REST Countries API with fetch requests and async/await error handling. Built search and filter functionality with debounced input. Implemented dynamic card rendering with template literals and responsive grid layout.",
-    "images": {
-      "thumb": { "src": "/img/project-countries-api.jpg" },
-      "featured": { "src": "/img/project-countries-api.jpg" },
-      "alt": "Countries Api"
-    },
-    "liveUrl": "https://api-for-countries.netlify.app/",
-    "sourceUrl": "https://github.com/mrkteq/rest-countries-api"
-  },
-  {
-    "slug": "recipe-finder",
-    "title": "Recipe Finder Demo",
-    "description": "Integrated Edamam Recipe API with pagination and filter controls. Built async data fetching with loading states and error handling. Implemented responsive card grid with CSS Grid and optimized image loading using lazy loading attributes.",
-    "images": {
-      "thumb": { "src": "/img/project-recipe-finder.jpg" },
-      "featured": { "src": "/img/project-recipe-finder.jpg" },
-      "alt": "Recipe Finder"
-    },
-    "liveUrl": "https://kitchenhero.netlify.app/",
-    "sourceUrl": "https://github.com/mrkteq/kitchen-hero"
-  },
-  {
     "slug": "trusted-house-and-pet-sitters",
-    "title": "Trusted House and Pet Sitters Demo",
+    "title": "House & Pet Sitting Service Website",
     "description": "Built multi-page responsive site with semantic HTML5 structure. Implemented mobile-first navigation with CSS transforms and transitions. Designed accessible forms with proper label associations and ARIA attributes.",
     "images": {
       "thumb": { "src": "/img/project-trusted-house-and-pet-sitters.jpg" },
@@ -84,442 +84,35 @@
     "sourceUrl": "https://github.com/mrkteq/house--sitter-website"
   },
   {
+    "slug": "public-sector-saas",
+    "title": "UK Council Websites (20+ Sites)",
+    "description": "Contributed front-end development for 20+ UK council websites on white-label SaaS platform using XML templating and jQuery. Implemented WCAG 2.1 AA accessible components including responsive navigation, form controls, and semantic markup patterns. Collaborated with design and back-end teams across Bristol, Edinburgh, Hackney, Lambeth, Newcastle, Southwark, and 14 other local authorities.",
+    "images": {
+      "thumb": { "src": "/img/project-bristol.jpg" },
+      "featured": { "src": "/img/project-bristol.jpg" },
+      "alt": "Public Sector"
+    },
+    "liveUrl": "https://www.bristol.gov.uk/"
+  },
+  {
+    "slug": "sme-website-packages",
+    "title": "SME Website Packages (15+ Sites)",
+    "description": "Hand-coded 15+ complete website packages for small-medium businesses from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive layouts with mobile-first approach and cross-browser compatibility. Delivered pixel-perfect implementations for clients across healthcare, manufacturing, publishing, and professional services sectors including Gingerlily, Laurence King Publishing, Kimal, and Lumishore.",
+    "images": {
+      "thumb": { "src": "/img/project-gingerlilly.jpg" },
+      "featured": { "src": "/img/project-gingerlilly.jpg" },
+      "alt": "SME Sites"
+    },
+    "liveUrl": "https://www.gingerlilly.com/"
+  },
+  {
     "slug": "sports-book",
-    "title": "Gambling Platforms",
-    "description": "Contributed front-end development for high-traffic Sportsbook, Casino, eSports platforms using AngularJS. Implemented responsive UI components with CSS and collaborated in agile teams. Resolved cross-browser compatibility issues and performance bottlenecks.",
+    "title": "High-Traffic Gambling Platforms",
+    "description": "Contributed front-end development for high-traffic Sportsbook, Casino, eSports, and Slots platforms using AngularJS. Implemented responsive UI components with CSS and collaborated in agile teams. Resolved cross-browser compatibility issues and performance bottlenecks for applications serving millions of concurrent users.",
     "images": {
       "thumb": { "src": "/img/project-sports-book.jpg" },
       "featured": { "src": "/img/project-sports-book.jpg" },
       "alt": "Sportsbook"
     }
-  },
-  {
-    "slug": "argyll",
-    "title": "Argyll & Bute Council",
-    "description": "Developed accessible public sector website interfaces on SaaS platform using XML and jQuery. Implemented WCAG 2.1 AA compliance with semantic HTML and ARIA labels. Collaborated with design and back-end teams on responsive component delivery.",
-    "images": {
-      "thumb": { "src": "/img/project-argyll.jpg" },
-      "featured": { "src": "/img/project-argyll.jpg" },
-      "alt": "Argyll"
-    },
-    "liveUrl": "https://www.argyll-bute.gov.uk/"
-  },
-  {
-    "slug": "aylesbury",
-    "title": "Aylesbury Vale District Council",
-    "description": "Built responsive council website components with XML templating and jQuery. Implemented accessible navigation patterns and form controls. Debugged cross-browser UI issues and optimized page load performance.",
-    "images": {
-      "thumb": { "src": "/img/project-aylesbury.jpg" },
-      "featured": { "src": "/img/project-aylesbury.jpg" },
-      "alt": "Aylesbury"
-    },
-    "liveUrl": "https://www.buckinghamshire.gov.uk/"
-  },
-  {
-    "slug": "bedfordshire",
-    "title": "Central Bedfordshire Council",
-    "description": "Developed front-end interfaces for council SaaS platform with XML and jQuery. Implemented responsive layouts and accessible form controls. Resolved UI bugs and cross-browser compatibility issues.",
-    "images": {
-      "thumb": { "src": "/img/project-bedfordshire.jpg" },
-      "featured": { "src": "/img/project-bedfordshire.jpg" },
-      "alt": "Bedfordshire"
-    },
-    "liveUrl": "https://www.centralbedfordshire.gov.uk/"
-  },
-  {
-    "slug": "bristol",
-    "title": "Bristol City Council",
-    "description": "Built accessible responsive interfaces for public sector SaaS platform. Implemented WCAG-compliant navigation and form patterns using XML and jQuery. Collaborated on front-end architecture and component delivery.",
-    "images": {
-      "thumb": { "src": "/img/project-bristol.jpg" },
-      "featured": { "src": "/img/project-bristol.jpg" },
-      "alt": "Bristol"
-    },
-    "liveUrl": "https://www.bristol.gov.uk/"
-  },
-  {
-    "slug": "croydon",
-    "title": "Croydon Council",
-    "description": "Developed responsive council website components with XML templating system. Implemented accessible UI patterns and semantic HTML structure. Debugged browser compatibility issues and optimized rendering performance.",
-    "images": {
-      "thumb": { "src": "/img/project-croydon.jpg" },
-      "featured": { "src": "/img/project-croydon.jpg" },
-      "alt": "Croydon"
-    },
-    "liveUrl": "https://www.croydon.gov.uk/"
-  },
-  {
-    "slug": "edinburgh",
-    "title": "Edinburgh Council",
-    "description": "Built front-end interfaces for council SaaS platform using XML and jQuery. Implemented responsive navigation and accessible form controls. Resolved UI bugs and cross-browser rendering issues.",
-    "images": {
-      "thumb": { "src": "/img/project-edinburgh.jpg" },
-      "featured": { "src": "/img/project-edinburgh.jpg" },
-      "alt": "Edinburgh"
-    },
-    "liveUrl": "https://www.edinburgh.gov.uk/"
-  },
-  {
-    "slug": "hackney",
-    "title": "Hackney Council",
-    "description": "Developed accessible responsive components for public sector website. Implemented WCAG-compliant navigation patterns and semantic markup. Collaborated on front-end delivery and UI bug resolution.",
-    "images": {
-      "thumb": { "src": "/img/project-hackney.jpg" },
-      "featured": { "src": "/img/project-hackney.jpg" },
-      "alt": "Hackney"
-    },
-    "liveUrl": "https://www.hackney.gov.uk/"
-  },
-  {
-    "slug": "haringey",
-    "title": "Haringey Council",
-    "description": "Built responsive council interfaces with XML and jQuery on SaaS platform. Implemented accessible form controls and navigation patterns. Debugged cross-browser UI issues and performance bottlenecks.",
-    "images": {
-      "thumb": { "src": "/img/project-haringey.jpg" },
-      "featured": { "src": "/img/project-haringey.jpg" },
-      "alt": "Haringey"
-    },
-    "liveUrl": "https://www.haringey.gov.uk/"
-  },
-  {
-    "slug": "harrow",
-    "title": "Harrow Council",
-    "description": "Developed front-end components for council SaaS platform using XML templating. Implemented responsive layouts and accessible UI patterns. Resolved browser compatibility and performance issues.",
-    "images": {
-      "thumb": { "src": "/img/project-harrow.jpg" },
-      "featured": { "src": "/img/project-harrow.jpg" },
-      "alt": "Harrow"
-    },
-    "liveUrl": "https://www.harrow.gov.uk/"
-  },
-  {
-    "slug": "lambeth",
-    "title": "Lambeth Council",
-    "description": "Built accessible responsive interfaces for public sector SaaS platform. Implemented WCAG-compliant components with semantic HTML and ARIA. Collaborated on front-end architecture and UI delivery.",
-    "images": {
-      "thumb": { "src": "/img/project-lambeth.jpg" },
-      "featured": { "src": "/img/project-lambeth.jpg" },
-      "alt": "Lambeth"
-    },
-    "liveUrl": "https://www.lambeth.gov.uk/"
-  },
-  {
-    "slug": "lewisham",
-    "title": "Lewisham Council",
-    "description": "Developed council website components with XML and jQuery. Implemented responsive navigation and accessible form patterns. Debugged UI issues and optimized cross-browser rendering.",
-    "images": {
-      "thumb": { "src": "/img/project-lewisham.jpg" },
-      "featured": { "src": "/img/project-lewisham.jpg" },
-      "alt": "Lewisham"
-    },
-    "liveUrl": "https://www.lewisham.gov.uk/"
-  },
-  {
-    "slug": "newcastle",
-    "title": "Newcastle Council",
-    "description": "Built front-end interfaces for council SaaS platform with XML templating. Implemented accessible responsive components and navigation patterns. Resolved browser compatibility and performance issues.",
-    "images": {
-      "thumb": { "src": "/img/project-newcastle.jpg" },
-      "featured": { "src": "/img/project-newcastle.jpg" },
-      "alt": "Newcastle"
-    },
-    "liveUrl": "https://www.newcastle.gov.uk/"
-  },
-  {
-    "slug": "northampton",
-    "title": "Northampton Council",
-    "description": "Developed responsive council website components using XML and jQuery. Implemented WCAG-compliant UI patterns and semantic structure. Debugged cross-browser issues and optimized load performance.",
-    "images": {
-      "thumb": { "src": "/img/project-northampton.jpg" },
-      "featured": { "src": "/img/project-northampton.jpg" },
-      "alt": "Northampton"
-    },
-    "liveUrl": "https://www.westnorthants.gov.uk/"
-  },
-  {
-    "slug": "north-somerset",
-    "title": "North Somerset Council",
-    "description": "Built accessible front-end components for public sector SaaS platform. Implemented responsive navigation and form controls with XML and jQuery. Collaborated on UI delivery and bug resolution.",
-    "images": {
-      "thumb": { "src": "/img/project-north-somerset.jpg" },
-      "featured": { "src": "/img/project-north-somerset.jpg" },
-      "alt": "Nsomerset"
-    },
-    "liveUrl": "https://www.n-somerset.gov.uk/"
-  },
-  {
-    "slug": "rotherham",
-    "title": "Rotherham Metropolitan Borough Council",
-    "description": "Developed council website interfaces with XML templating and jQuery. Implemented accessible responsive components and semantic markup. Resolved UI bugs and cross-browser compatibility issues.",
-    "images": {
-      "thumb": { "src": "/img/project-rotherham.jpg" },
-      "featured": { "src": "/img/project-rotherham.jpg" },
-      "alt": "Rotherham"
-    },
-    "liveUrl": "https://www.rotherham.gov.uk/"
-  },
-  {
-    "slug": "runnymede",
-    "title": "Runnymede Borough Council",
-    "description": "Built front-end components for council SaaS platform using XML and jQuery. Implemented responsive layouts and accessible navigation patterns. Debugged browser compatibility and performance issues.",
-    "images": {
-      "thumb": { "src": "/img/project-runnymede.jpg" },
-      "featured": { "src": "/img/project-runnymede.jpg" },
-      "alt": "Runnymede"
-    },
-    "liveUrl": "https://www.runnymede.gov.uk/"
-  },
-  {
-    "slug": "rushmoor",
-    "title": "Rushmoor Borough Council",
-    "description": "Developed accessible responsive interfaces for public sector website. Implemented WCAG-compliant form controls and navigation using XML and jQuery. Collaborated on front-end delivery and UI optimization.",
-    "images": {
-      "thumb": { "src": "/img/project-rushmoor.jpg" },
-      "featured": { "src": "/img/project-rushmoor.jpg" },
-      "alt": "Rushmoor"
-    },
-    "liveUrl": "https://www.rushmoor.gov.uk/"
-  },
-  {
-    "slug": "southwark",
-    "title": "Southwark Council",
-    "description": "Built council website components with XML templating system and jQuery. Implemented responsive navigation and accessible UI patterns. Resolved cross-browser rendering and performance issues.",
-    "images": {
-      "thumb": { "src": "/img/project-southwark.jpg" },
-      "featured": { "src": "/img/project-southwark.jpg" },
-      "alt": "Southwark"
-    },
-    "liveUrl": "https://www.southwark.gov.uk/"
-  },
-  {
-    "slug": "stoke-on-trent",
-    "title": "City of Stoke on Trent Council",
-    "description": "Developed front-end interfaces for council SaaS platform with XML and jQuery. Implemented accessible responsive components and semantic markup. Debugged UI issues and optimized browser compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-stoke-on-trent.jpg" },
-      "featured": { "src": "/img/project-stoke-on-trent.jpg" },
-      "alt": "Stoke"
-    },
-    "liveUrl": "https://www.stoke.gov.uk/"
-  },
-  {
-    "slug": "sutton",
-    "title": "London Borough of Sutton Council",
-    "description": "Built accessible council website components using XML and jQuery. Implemented WCAG-compliant navigation and form patterns. Collaborated on responsive UI delivery and performance optimization.",
-    "images": {
-      "thumb": { "src": "/img/project-sutton.jpg" },
-      "featured": { "src": "/img/project-sutton.jpg" },
-      "alt": "Sutton"
-    },
-    "liveUrl": "https://www.sutton.gov.uk/"
-  },
-  {
-    "slug": "west-lindsey",
-    "title": "West Lindsey District Council",
-    "description": "Developed responsive front-end components for public sector SaaS platform. Implemented accessible navigation patterns and semantic HTML structure. Resolved UI bugs and cross-browser compatibility issues.",
-    "images": {
-      "thumb": { "src": "/img/project-west-lindsey.jpg" },
-      "featured": { "src": "/img/project-west-lindsey.jpg" },
-      "alt": "Westlindsey"
-    },
-    "liveUrl": "https://www.west-lindsey.gov.uk/"
-  },
-  {
-    "slug": "bridle",
-    "title": "Bridle Insurance",
-    "description": "Hand-coded pixel-perfect multi-page site from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive layouts with mobile-first approach. Optimized page load performance and cross-browser rendering.",
-    "images": {
-      "thumb": { "src": "/img/project-bridle.jpg" },
-      "featured": { "src": "/img/project-bridle.jpg" },
-      "alt": "Bridle"
-    },
-    "liveUrl": "https://www.finchinsurance.co.uk/bridle/"
-  },
-  {
-    "slug": "cherwell",
-    "title": "Cherwell Laboratories",
-    "description": "Built complete website package from PSD mockups using PHP, HTML, CSS, JavaScript. Implemented responsive grid layouts and optimized image delivery. Ensured cross-device accessibility and browser compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-cherwell.jpg" },
-      "featured": { "src": "/img/project-cherwell.jpg" },
-      "alt": "Cherwell"
-    },
-    "liveUrl": "https://www.cherwell-labs.co.uk/"
-  },
-  {
-    "slug": "dendrite",
-    "title": "Dendrite Clinical Systems",
-    "description": "Developed multi-page business site from design files using PHP, HTML, CSS, JavaScript. Implemented mobile-responsive layouts and semantic markup. Optimized load performance and accessibility standards.",
-    "images": {
-      "thumb": { "src": "/img/project-dendrite.jpg" },
-      "featured": { "src": "/img/project-dendrite.jpg" },
-      "alt": "Dendrite"
-    },
-    "liveUrl": "https://www.e-dendrite.com/"
-  },
-  {
-    "slug": "ems",
-    "title": "Electronic Manufacturing Solutions",
-    "description": "Hand-coded website package from PSD designs using PHP, HTML, CSS, JavaScript. Built responsive layouts with CSS Grid and Flexbox. Implemented cross-browser compatibility and performance optimizations.",
-    "images": {
-      "thumb": { "src": "/img/project-ems.jpg" },
-      "featured": { "src": "/img/project-ems.jpg" },
-      "alt": "Ems"
-    },
-    "liveUrl": "https://www.emsolutions.uk.com/"
-  },
-  {
-    "slug": "fordway",
-    "title": "Fordway Management Systems",
-    "description": "Built pixel-perfect multi-page site from design mockups using PHP, HTML, CSS, JavaScript. Implemented responsive navigation and form controls. Optimized page rendering and cross-device compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-fordway.jpg" },
-      "featured": { "src": "/img/project-fordway.jpg" },
-      "alt": "Fordway"
-    },
-    "liveUrl": "https://www.fordway.com/"
-  },
-  {
-    "slug": "gingerlilly",
-    "title": "Gingerlily Silk Bedding",
-    "description": "Developed e-commerce site from PSD files using PHP, HTML, CSS, JavaScript. Implemented product grid layouts and responsive image galleries. Optimized checkout flow and mobile navigation patterns.",
-    "images": {
-      "thumb": { "src": "/img/project-gingerlilly.jpg" },
-      "featured": { "src": "/img/project-gingerlilly.jpg" },
-      "alt": "Gingerlilly"
-    },
-    "liveUrl": "https://www.gingerlilly.com/"
-  },
-  {
-    "slug": "hartwood",
-    "title": "Hartwood Oak Buildings",
-    "description": "Hand-coded business website from design files using PHP, HTML, CSS, JavaScript. Built responsive layouts with mobile-first approach. Implemented image optimization and cross-browser compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-hartwood.jpg" },
-      "featured": { "src": "/img/project-hartwood.jpg" },
-      "alt": "Hartwood"
-    },
-    "liveUrl": "https://www.hartwoodoak.com/"
-  },
-  {
-    "slug": "infodata",
-    "title": "Info Data Hospitality Systems",
-    "description": "Built multi-page website package from PSD mockups using PHP, HTML, CSS, JavaScript. Implemented responsive grid layouts and accessible navigation. Optimized load performance and semantic markup.",
-    "images": {
-      "thumb": { "src": "/img/project-infodata.jpg" },
-      "featured": { "src": "/img/project-infodata.jpg" },
-      "alt": "Infodata"
-    },
-    "liveUrl": "https://infodata.uk.com/"
-  },
-  {
-    "slug": "kimal",
-    "title": "Kimal Healthcare Innovation",
-    "description": "Developed business site from design files using PHP, HTML, CSS, JavaScript. Implemented mobile-responsive layouts and semantic structure. Optimized image delivery and cross-browser rendering.",
-    "images": {
-      "thumb": { "src": "/img/project-kimal.jpg" },
-      "featured": { "src": "/img/project-kimal.jpg" },
-      "alt": "Kimal"
-    },
-    "liveUrl": "https://kimal.com/en/"
-  },
-  {
-    "slug": "kraus",
-    "title": "Kraus & Naimer",
-    "description": "Hand-coded pixel-perfect site from PSD designs using PHP, HTML, CSS, JavaScript. Built responsive navigation and product catalog layouts. Implemented cross-browser compatibility and performance optimizations.",
-    "images": {
-      "thumb": { "src": "/img/project-kraus.jpg" },
-      "featured": { "src": "/img/project-kraus.jpg" },
-      "alt": "Kraus"
-    },
-    "liveUrl": "https://www.krausnaimer.com/"
-  },
-  {
-    "slug": "laurence-king",
-    "title": "Laurence King Publishing",
-    "description": "Built publishing website from design mockups using PHP, HTML, CSS, JavaScript. Implemented responsive product grids and accessible navigation. Optimized page load performance and mobile layouts.",
-    "images": {
-      "thumb": { "src": "/img/project-laurence-king.jpg" },
-      "featured": { "src": "/img/project-laurence-king.jpg" },
-      "alt": "Laurenceking"
-    },
-    "liveUrl": "https://www.laurenceking.com/"
-  },
-  {
-    "slug": "lumishore",
-    "title": "Lumishore Underwater Lighting",
-    "description": "Developed multi-page business site from PSD files using PHP, HTML, CSS, JavaScript. Implemented responsive layouts with mobile-first approach. Optimized image galleries and cross-device compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-lumishore.jpg" },
-      "featured": { "src": "/img/project-lumishore.jpg" },
-      "alt": "Lumishore"
-    },
-    "liveUrl": "https://www.lumishore.com/"
-  },
-  {
-    "slug": "pondergrove",
-    "title": "Pondergrove Management Systems",
-    "description": "Hand-coded website package from design files using PHP, HTML, CSS, JavaScript. Built responsive navigation and form controls. Implemented semantic markup and cross-browser compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-pondergrove.jpg" },
-      "featured": { "src": "/img/project-pondergrove.jpg" },
-      "alt": "Pondergrove"
-    },
-    "liveUrl": "https://www.pondergrove.co.uk/"
-  },
-  {
-    "slug": "ressance",
-    "title": "Ressance Homes",
-    "description": "Built real estate website from PSD mockups using PHP, HTML, CSS, JavaScript. Implemented responsive property grid layouts and image galleries. Optimized mobile navigation and page load performance.",
-    "images": {
-      "thumb": { "src": "/img/project-ressance.jpg" },
-      "featured": { "src": "/img/project-ressance.jpg" },
-      "alt": "Ressance"
-    },
-    "liveUrl": "https://www.ressance.co.uk/"
-  },
-  {
-    "slug": "robnor-resins",
-    "title": "Robnor Resins",
-    "description": "Developed business site from design files using PHP, HTML, CSS, JavaScript. Implemented mobile-responsive layouts and accessible navigation patterns. Optimized cross-browser rendering and semantic structure.",
-    "images": {
-      "thumb": { "src": "/img/project-robnor-resins.jpg" },
-      "featured": { "src": "/img/project-robnor-resins.jpg" },
-      "alt": "Robnor"
-    },
-    "liveUrl": "https://robnor-resinlab.com/"
-  },
-  {
-    "slug": "secure-systems",
-    "title": "Secure Systems",
-    "description": "Hand-coded multi-page site from PSD designs using PHP, HTML, CSS, JavaScript. Built responsive layouts with CSS Grid and Flexbox. Implemented accessibility standards and cross-browser compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-secure-systems.jpg" },
-      "featured": { "src": "/img/project-secure-systems.jpg" },
-      "alt": "Securesystems"
-    },
-    "liveUrl": "https://www.secure-systems.co.uk/"
-  },
-  {
-    "slug": "sharp",
-    "title": "Sharp",
-    "description": "Built corporate website from design mockups using PHP, HTML, CSS, JavaScript. Implemented responsive product navigation and image optimization. Optimized page load performance and mobile layouts.",
-    "images": {
-      "thumb": { "src": "/img/project-sharp.jpg" },
-      "featured": { "src": "/img/project-sharp.jpg" },
-      "alt": "Sharp"
-    },
-    "liveUrl": "https://www.sharp.eu/"
-  },
-  {
-    "slug": "shaw",
-    "title": "Shaw Healthcare",
-    "description": "Developed healthcare website from PSD files using PHP, HTML, CSS, JavaScript. Implemented accessible responsive layouts and semantic markup. Optimized navigation patterns and cross-device compatibility.",
-    "images": {
-      "thumb": { "src": "/img/project-shaw.jpg" },
-      "featured": { "src": "/img/project-shaw.jpg" },
-      "alt": "Shaw"
-    },
-    "liveUrl": "https://www.shaw.co.uk/"
   }
 ]
