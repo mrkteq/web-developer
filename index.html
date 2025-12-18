@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Mark Tucker">
     
     <title>Mark Tucker | Front-End Engineer</title>
@@ -44,11 +44,10 @@
         </div>
     </header>
     
-    <section class="hero" aria-labelledby="about-heading">
+    <section class="hero">
         <div class="container">
             <h1>Mark Tucker</h1>
-            <section class="about" aria-labelledby="about-heading">
-                <h2 id="about-heading">About</h2>
+            <section class="about">
                 <p>Front-end engineer based in Malaga, Spain, available for remote work with US, UK, and EU companies. Built responsive interfaces for high-traffic gambling platforms, 20+ UK council websites serving millions of users, and 15+ SME business sites. Currently rebuilding technical foundation through hands-on JavaScript projects after career transition. Native English speaker with experience delivering accessible, WCAG-compliant interfaces across desktop and mobile platforms.</p>
                 <div class="button-group">
                     <a href="/resume.pdf" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Download resume">Resume</a>
@@ -62,15 +61,14 @@
     <main id="main-content">
         <article id="projects" class="projects">
             <div class="container">
-                <section class="featured-project" aria-labelledby="featured-project-heading">
-                    <h2 id="featured-project-heading">Featured Project</h2>
+                <section class="featured-project">
                     <div class="project-grid">
                         <div class="project-content">
                             <h3>Pure HTML CSS - Zero-JS Capability Demonstration</h3>
                             <p>Implemented CSS-only mobile navigation using checkbox pattern and :has() selector. Integrated View Transitions API for smooth page navigation. Built zero-JavaScript business site demonstrating modern CSS Grid and Flexbox layouts.</p>
                             <div class="button-group">
-                                <a href="https://marktucker-purehtmlco.netlify.app/" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open live site">Live Demo</a>
-                                <a href="https://github.com/mrkteq/marktucker-purehtmlco" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open source code on GitHub">Source Files</a>
+                                <a href="https://marktucker-purehtmlco.netlify.app/" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open live site">View Live</a>
+                                <a href="https://github.com/mrkteq/marktucker-purehtmlco" class="button blue" target="_blank" rel="noopener noreferrer" aria-label="Open source code on GitHub">View Source</a>
                             </div>
                         </div>
                         
@@ -85,12 +83,8 @@
                     </div>    
                 </section>         
                 
-                <section class="project-showcase" aria-labelledby="more-projects-heading">
-                    <h2 id="more-projects-heading">More Projects</h2>
+                <section class="project-showcase">
                     <div id="project-grid" class="project-grid-gallery" role="list" aria-live="polite"></div>
-                    <div class="project-grid-actions">
-                        <button id="load-more-projects" class="button blue" aria-label="Load more projects">Load more</button>
-                    </div>
                 </section>
             </div>
         </article>

@@ -6,13 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const liveButton = document.querySelector('.project-content .button-group a:first-child');
   const sourceButton = document.querySelector('.project-content .button-group a:last-child');
   const grid = document.getElementById('project-grid');
-  const loadMoreBtn = document.getElementById('load-more-projects');
 
-  // Pagination settings
-  const PAGE_SIZE = 10;
   let allProjects = [];
-  let currentPage = 0;
-  let totalPages = 0;
 
   function setFeatured(project) {
     if (!project) return;
@@ -74,54 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return button;
   }
 
-  function renderPage() {
+  function renderAllProjects() {
     grid.innerHTML = '';
-    const start = currentPage * PAGE_SIZE;
-    const end = Math.min(start + PAGE_SIZE, allProjects.length);
-    const pageItems = allProjects.slice(start, end);
-    pageItems.forEach(p => grid.appendChild(createGridItem(p)));
-
-    // Update pagination controls
-    const prevBtn = document.getElementById('prev-projects');
-    if (prevBtn) prevBtn.style.display = currentPage > 0 ? 'inline-block' : 'none';
-    if (loadMoreBtn) loadMoreBtn.style.display = currentPage < totalPages - 1 ? 'inline-block' : 'none';
-
-    renderDots();
-  }
-
-  function renderDots() {
-    let dots = document.getElementById('project-dots');
-    const actions = document.querySelector('.project-grid-actions');
-    if (!actions) return;
-
-    const nextBtn = loadMoreBtn;
-    const prevBtn = document.getElementById('prev-projects');
-    if (!dots) {
-      dots = document.createElement('div');
-      dots.id = 'project-dots';
-      dots.className = 'project-dots';
-      dots.setAttribute('role', 'tablist');
-      actions.insertBefore(dots, nextBtn || null);
-    } else if (dots.nextSibling !== nextBtn) {
-      actions.insertBefore(dots, nextBtn || null);
-    }
-    if (prevBtn && prevBtn.nextSibling !== dots) {
-      actions.insertBefore(prevBtn, dots);
-    }
-
-    dots.innerHTML = '';
-    for (let i = 0; i < totalPages; i++) {
-      const dot = document.createElement('button');
-      dot.type = 'button';
-      dot.className = 'dot' + (i === currentPage ? ' active' : '');
-      dot.setAttribute('aria-label', `Go to page ${i + 1}`);
-      dot.setAttribute('role', 'tab');
-      dot.addEventListener('click', () => {
-        currentPage = i;
-        renderPage();
-      });
-      dots.appendChild(dot);
-    }
+    allProjects.forEach(p => grid.appendChild(createGridItem(p)));
   }
 
   async function init() {
@@ -158,42 +108,12 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (allProjects.length > 0) setFeatured(allProjects[0]);
-
-      // Setup pagination controls
-      totalPages = Math.ceil(allProjects.length / PAGE_SIZE);
-      if (loadMoreBtn) {
-        loadMoreBtn.textContent = 'Next';
-        loadMoreBtn.setAttribute('aria-label', 'Load next page of projects');
-      }
-      const actions = document.querySelector('.project-grid-actions');
-      if (actions && !document.getElementById('prev-projects')) {
-        const prevBtn = document.createElement('button');
-        prevBtn.id = 'prev-projects';
-        prevBtn.className = 'button blue';
-        prevBtn.textContent = 'Previous';
-        prevBtn.setAttribute('aria-label', 'Load previous page of projects');
-        prevBtn.style.display = 'none';
-        actions.insertBefore(prevBtn, loadMoreBtn || null);
-
-        prevBtn.addEventListener('click', () => {
-          if (currentPage > 0) {
-            currentPage -= 1;
-            renderPage();
-          }
-        });
-      }
-
-      renderPage();
+      
+      renderAllProjects();
     } catch (e) {
       console.error('Failed to load projects.json', e);
     }
   }
 
-  loadMoreBtn?.addEventListener('click', () => {
-    if (currentPage < totalPages - 1) {
-      currentPage += 1;
-      renderPage();
-    }
-  });
   init();
 });
