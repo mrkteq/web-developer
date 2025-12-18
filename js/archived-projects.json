@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "bed-and-breakfast",
+    "title": "Bed and Breakfast Demo",
+    "description": "Built multi-page responsive site with semantic HTML5 structure. Implemented mobile-first navigation and accessible form controls. Designed booking interface with CSS Grid layout.",
+    "images": {
+      "thumb": { "src": "/img/project-bed-and-breakfast.jpg" },
+      "featured": { "src": "/img/project-bed-and-breakfast.jpg" },
+      "alt": "Bed and Breakfast"
+    },
+    "sourceUrl": "https://github.com/mrkteq/sunny-retreat-space"
+  },
+  {
+    "slug": "background-generator",
+    "title": "Background Generator Demo",
+    "description": "Built gradient generator with color picker inputs and real-time CSS updates. Implemented copy-to-clipboard functionality with JavaScript. Designed responsive UI with mobile touch controls.",
+    "images": {
+      "thumb": { "src": "/img/project-background-generator.jpg" },
+      "featured": { "src": "/img/project-background-generator.jpg" },
+      "alt": "Background Generator"
+    },
+    "sourceUrl": "https://github.com/mrkteq/background-generator"
+  },
+  {
+    "slug": "coastal-calm",
+    "title": "Coastal Calm Retreat Website Demo",
+    "description": "Developed multi-page retreat website with responsive image galleries. Implemented CSS Grid layout for amenities showcase. Built accessible navigation with semantic HTML structure.",
+    "images": {
+      "thumb": { "src": "/img/project-coastal-calm.jpg" },
+      "featured": { "src": "/img/project-coastal-calm.jpg" },
+      "alt": "Coastalcalm"
+    },
+    "sourceUrl": "https://github.com/mrkteq/coastal-calm"
+  },
+  {
+    "slug": "heiko-reformas",
+    "title": "Building Renovation Specialist Website Demo",
+    "description": "Built construction business site with project portfolio gallery. Implemented responsive card layouts with CSS Grid. Designed contact forms with client-side validation.",
+    "images": {
+      "thumb": { "src": "/img/project-heiko-reformas.jpg" },
+      "featured": { "src": "/img/project-heiko-reformas.jpg" },
+      "alt": "Heiko Reformas"
+    },
+    "sourceUrl": "https://github.com/mrkteq/renovation"
+  },
+  {
+    "slug": "it-handyman",
+    "title": "IT Handyman Demo",
+    "description": "Developed tech services website with responsive service grid. Implemented mobile-first navigation and accessible form controls. Built pricing table with CSS Flexbox layout.",
+    "images": {
+      "thumb": { "src": "/img/project-it-handyman.jpg" },
+      "featured": { "src": "/img/project-it-handyman.jpg" },
+      "alt": "IT Handyman"
+    },
+    "sourceUrl": "https://github.com/mrkteq/IT-Handyman"
+  },
+  {
+    "slug": "paws-and-hearts",
+    "title": "Paws and Hearts Demo",
+    "description": "Built animal rescue website with adoption profile cards. Implemented responsive grid layout and image optimization. Designed accessible donation forms with semantic HTML.",
+    "images": {
+      "thumb": { "src": "/img/project-paws-and-hearts.jpg" },
+      "featured": { "src": "/img/project-paws-and-hearts.jpg" },
+      "alt": "Paws Hearts"
+    },
+    "sourceUrl": "https://github.com/mrkteq/animal-rescue-shelter"
+  },
+  {
+    "slug": "quote-generator",
+    "title": "Quote Generator Demo",
+    "description": "Developed random quote generator with API integration. Implemented async fetch requests and loading states. Built copy and share functionality with JavaScript.",
+    "images": {
+      "thumb": { "src": "/img/project-quote-generator.jpg" },
+      "featured": { "src": "/img/project-quote-generator.jpg" },
+      "alt": "Quote Gen"
+    },
+    "sourceUrl": "https://github.com/mrkteq/quote-generator"
+  },
+  {
+    "slug": "robo-friend",
+    "title": "Robofriend Demo",
+    "description": "Built contact card application with search functionality. Implemented dynamic filtering with JavaScript event listeners. Designed responsive grid layout with CSS.",
+    "images": {
+      "thumb": { "src": "/img/project-robofriend.jpg" },
+      "featured": { "src": "/img/project-robofriend.jpg" },
+      "alt": "Robofriend"
+    }
+  },
+  {
+    "slug": "robo-friends",
+    "title": "Robofriends Demo",
+    "description": "Developed searchable robot contact directory with real-time filtering. Implemented API integration with async data fetching. Built responsive card grid with CSS Grid.",
+    "images": {
+      "thumb": { "src": "/img/project-robo-friends.jpg" },
+      "featured": { "src": "/img/project-robo-friends.jpg" },
+      "alt": "Robofriends"
+    }
+  },
+  {
+    "slug": "smart-brain",
+    "title": "Smart Brain App Demo",
+    "description": "Built image recognition app with face detection API integration. Implemented user authentication and session management. Designed responsive UI with form validation.",
+    "images": {
+      "thumb": { "src": "/img/project-smart-brain.jpg" },
+      "featured": { "src": "/img/project-smart-brain.jpg" },
+      "alt": "Smart Brain"
+    }
+  },
+  {
+    "slug": "starwars-api",
+    "title": "Star Wars Api Demo",
+    "description": "Developed character browser with SWAPI integration. Implemented async data fetching with error handling. Built responsive card layout with loading indicators.",
+    "images": {
+      "thumb": { "src": "/img/project-starwars-api.jpg" },
+      "featured": { "src": "/img/project-starwars-api.jpg" },
+      "alt": "Starwars"
+    },
+    "sourceUrl": "https://github.com/mrkteq/starwars-api"
+  },
+  {
+    "slug": "website-startup",
+    "title": "Website Startup Demo",
+    "description": "Built landing page with call-to-action sections and responsive navigation. Implemented smooth scroll behavior and mobile menu. Designed hero section with CSS Grid layout.",
+    "images": {
+      "thumb": { "src": "/img/project-website-startup.jpg" },
+      "featured": { "src": "/img/project-website-startup.jpg" },
+      "alt": "Website Startup"
+    },
+    "sourceUrl": "https://github.com/mrkteq/website-startup"
+  },
+  {
+    "slug": "reviews-aggregator",
+    "title": "Reviews Aggregator Demo",
+    "description": "Developed review collection interface with rating system. Implemented dynamic star rating component with JavaScript. Built responsive card grid with filtering functionality.",
+    "images": {
+      "thumb": { "src": "/img/project-reviews-aggregator.jpg" },
+      "featured": { "src": "/img/project-reviews-aggregator.jpg" },
+      "alt": "Reviews Aggregator"
+    },
+    "sourceUrl": "https://github.com/mrkteq/reviews-aggregator"
+  },
+  {
+    "slug": "dsg",
+    "title": "DSG Quantity Surveyors",
+    "description": "Hand-coded professional services website from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive layouts and accessible navigation. Optimized cross-browser compatibility.",
+    "images": {
+      "thumb": { "src": "/img/project-dsg.jpg" },
+      "featured": { "src": "/img/project-dsg.jpg" },
+      "alt": "DSG"
+    }
+  },
+  {
+    "slug": "harling-menzies",
+    "title": "Harling Menzies Executive Search",
+    "description": "Built executive recruitment website from design files using PHP, HTML, CSS, JavaScript. Implemented responsive layouts and form controls. Optimized page performance and semantic markup.",
+    "images": {
+      "thumb": { "src": "/img/project-harling-menzies.jpg" },
+      "featured": { "src": "/img/project-harling-menzies.jpg" },
+      "alt": "Harlingmenzies"
+    }
+  },
+  {
+    "slug": "julian-perry",
+    "title": "Julian Perry Advanced Dental Solutions",
+    "description": "Developed dental practice website from PSD mockups using PHP, HTML, CSS, JavaScript. Implemented responsive layouts and accessible navigation. Optimized mobile compatibility and load performance.",
+    "images": {
+      "thumb": { "src": "/img/project-julian-perry.jpg" },
+      "featured": { "src": "/img/project-julian-perry.jpg" },
+      "alt": "Julianperry"
+    }
+  },
+  {
+    "slug": "mars",
+    "title": "Martians Reunited",
+    "description": "Hand-coded community website from design files using PHP, HTML, CSS, JavaScript. Built responsive layouts with mobile-first approach. Implemented semantic HTML and cross-browser compatibility.",
+    "images": {
+      "thumb": { "src": "/img/project-mars.jpg" },
+      "featured": { "src": "/img/project-mars.jpg" },
+      "alt": "Mars"
+    }
+  },
+  {
+    "slug": "ms-consultants",
+    "title": "MS Consultants Financial Services Training",
+    "description": "Built training services website from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive navigation and course catalog layouts. Optimized accessibility and page performance.",
+    "images": {
+      "thumb": { "src": "/img/project-ms-consultants.jpg" },
+      "featured": { "src": "/img/project-ms-consultants.jpg" },
+      "alt": "Msconsultants"
+    }
+  },
+  {
+    "slug": "resins-online",
+    "title": "Resins Online",
+    "description": "Developed e-commerce site from design mockups using PHP, HTML, CSS, JavaScript. Implemented product grid layouts and responsive navigation. Optimized image delivery and cross-browser rendering.",
+    "images": {
+      "thumb": { "src": "/img/project-resins-online.jpg" },
+      "featured": { "src": "/img/project-resins-online.jpg" },
+      "alt": "Resinsonline"
+    }
+  },
+  {
+    "slug": "synergy",
+    "title": "Synergy Digital Marketing Agency",
+    "description": "Hand-coded agency website from PSD files using PHP, HTML, CSS, JavaScript. Built responsive portfolio grid and service pages. Implemented mobile navigation and accessibility standards.",
+    "images": {
+      "thumb": { "src": "/img/project-synergy.jpg" },
+      "featured": { "src": "/img/project-synergy.jpg" },
+      "alt": "Synergy"
+    }
+  }
+]
