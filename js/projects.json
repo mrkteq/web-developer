@@ -13,7 +13,7 @@
   },
   {
     "slug": "prank",
-    "title": "Prank - Creative direction/AI prompting",
+    "title": "Prank - Creative direction and AI prompting",
     "description": "Built single-page transformation demo with CSS animations and DOM manipulation. Implemented state-driven UI toggle revealing professional explanation. Demonstrates AI prompting and design direction skills through deliberate anti-pattern showcase.",
     "images": {
       "thumb": { "src": "/img/project-prank.jpg" },
