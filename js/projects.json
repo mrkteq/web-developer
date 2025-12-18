@@ -1,7 +1,7 @@
 [
   {
     "slug": "pure-html-and-css",
-    "title": "Pure HTML and CSS Business Site",
+    "title": "Pure HTML CSS - Zero-JS capability demonstration",
     "description": "Implemented CSS-only mobile navigation using checkbox pattern and :has() selector. Integrated View Transitions API for smooth page navigation. Built zero-JavaScript business site demonstrating modern CSS Grid and Flexbox layouts.",
     "images": {
       "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
@@ -13,7 +13,7 @@
   },
   {
     "slug": "prank",
-    "title": "Intentionally Terrible Portfolio Website",
+    "title": "Prank - Creative direction/AI prompting",
     "description": "Built single-page transformation demo with CSS animations and DOM manipulation. Implemented state-driven UI toggle revealing professional explanation. Demonstrates AI prompting and design direction skills through deliberate anti-pattern showcase.",
     "images": {
       "thumb": { "src": "/img/project-prank.jpg" },
@@ -25,7 +25,7 @@
   },
   {
     "slug": "countries-api",
-    "title": "Countries REST API Browser",
+    "title": "Countries - API integration pattern",
     "description": "Integrated REST Countries API with fetch requests and async/await error handling. Built search and filter functionality with debounced input to reduce API calls by 85%. Implemented dynamic card rendering with template literals and responsive grid layout.",
     "images": {
       "thumb": { "src": "/img/project-countries-api.jpg" },
@@ -37,7 +37,7 @@
   },
   {
     "slug": "recipe-finder",
-    "title": "Recipe Finder Application",
+    "title": "Recipe Finder - Async data handling",
     "description": "Integrated Edamam Recipe API with pagination and filter controls. Built async data fetching with loading states and error handling. Implemented responsive card grid with CSS Grid and optimized image loading using lazy loading attributes.",
     "images": {
       "thumb": { "src": "/img/project-recipe-finder.jpg" },
@@ -49,7 +49,7 @@
   },
   {
     "slug": "responsive-layout",
-    "title": "Responsive UI Design",
+    "title": "Responsive Layout - Mobile-first approach",
     "description": "Built mobile-first responsive layout with CSS Grid and Flexbox. Implemented fluid typography using clamp() functions. Designed breakpoint system supporting mobile, tablet, and desktop viewports with touch and keyboard interaction support.",
     "images": {
       "thumb": { "src": "/img/project-responsive-layout.jpg" },
@@ -61,7 +61,7 @@
   },
   {
     "slug": "sign-up",
-    "title": "Sign-Up Form with Validation",
+    "title": "Sign-Up - Form layout and validation",
     "description": "Developed form validation with real-time feedback using JavaScript event listeners. Implemented accessible error messaging with ARIA live regions. Built responsive form layout with CSS Grid and custom input styling.",
     "images": {
       "thumb": { "src": "/img/project-sign-up.jpg" },
@@ -73,7 +73,7 @@
   },
   {
     "slug": "trusted-house-and-pet-sitters",
-    "title": "House & Pet Sitting Service Website",
+    "title": "Trusted House - Complete business site",
     "description": "Built multi-page responsive site with semantic HTML5 structure. Implemented mobile-first navigation with CSS transforms and transitions. Designed accessible forms with proper label associations and ARIA attributes.",
     "images": {
       "thumb": { "src": "/img/project-trusted-house-and-pet-sitters.jpg" },
@@ -91,19 +91,17 @@
       "thumb": { "src": "/img/project-bristol.jpg" },
       "featured": { "src": "/img/project-bristol.jpg" },
       "alt": "Public Sector"
-    },
-    "liveUrl": "https://www.bristol.gov.uk/"
+    }
   },
   {
     "slug": "sme-website-packages",
     "title": "SME Website Packages (15+ Sites)",
-    "description": "Hand-coded 15+ complete website packages for small-medium businesses from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive layouts with mobile-first approach and cross-browser compatibility. Delivered pixel-perfect implementations for clients across healthcare, manufacturing, publishing, and professional services sectors including Gingerlily, Laurence King Publishing, Kimal, and Lumishore.",
+    "description": "Hand-coded 15+ complete website packages for small-medium businesses from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive layouts with mobile-first approach and cross-browser compatibility. Delivered pixel-perfect implementations for clients across healthcare, manufacturing, publishing, and professional services sectors including Gingerlilly, Laurence King Publishing, Kimal, and Lumishore.",
     "images": {
       "thumb": { "src": "/img/project-gingerlilly.jpg" },
       "featured": { "src": "/img/project-gingerlilly.jpg" },
       "alt": "SME Sites"
-    },
-    "liveUrl": "https://www.gingerlilly.co.uk/"
+    }
   },
   {
     "slug": "sports-book",
