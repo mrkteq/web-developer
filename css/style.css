@@ -416,43 +416,6 @@ footer.site-footer {
   opacity: 0.9;
 }
 
-.contact-form {
-  display: flex;
-  gap: var(--space-sm);
-  max-width: 600px;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.message-input {
-  flex: 1;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  font-family: var(--font-family);
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  border-radius: 6px;
-  color: var(--footer-text);
-  transition: all 0.3s ease;
-}
-
-.message-input::placeholder {
-  color: rgba(255, 255, 255, 0.80);
-  letter-spacing: 4px;;
-}
-
-.message-input:focus {
-  outline: none;
-  background: rgba(255, 255, 255, 0.15);
-  border-color: var(--color-primary-light);
-}
-
-.send-button {
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-
 .footer-logo {
   display: inline-block;
   margin-right: var(--space-xs);
