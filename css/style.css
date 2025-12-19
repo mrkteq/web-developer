@@ -240,8 +240,8 @@ footer.site-footer a:focus {
 
 /* Buttons on light backgrounds */
 .project-grid .button {
-  color: var(--brand-dark);
-  border-color: var(--brand-dark);
+  color: var(--text);
+  border-color: var(--text);
 }
 
 .project-grid .button:hover {
