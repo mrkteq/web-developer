@@ -438,7 +438,8 @@ footer.site-footer {
 }
 
 .message-input::placeholder {
-  color: rgba(255, 255, 255, 0.096);
+  color: rgba(255, 255, 255, 0.80);
+  letter-spacing: 4px;;
 }
 
 .message-input:focus {
