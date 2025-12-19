@@ -1,7 +1,7 @@
 [
   {
     "slug": "pure-html-and-css",
-    "title": "Pure HTML CSS - Zero-JS capability demonstration",
+    "title": "Pure HTML CSS - Zero Dependency Demo",
     "description": "Implemented CSS-only mobile navigation using checkbox pattern and :has() selector. Integrated View Transitions API for smooth page navigation. Built zero-JavaScript business site demonstrating modern CSS Grid and Flexbox layouts.",
     "images": {
       "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
