@@ -4,8 +4,8 @@
     "title": "Pure HTML CSS - Zero Dependency Demo",
     "description": "Implemented CSS-only mobile navigation using checkbox pattern and :has() selector. Integrated View Transitions API for smooth page navigation. Built zero-JavaScript business site demonstrating modern CSS Grid and Flexbox layouts.",
     "images": {
-      "thumb": { "src": "/img/project-pure-html-and-css.jpg" },
-      "featured": { "src": "/img/project-pure-html-and-css.jpg" },
+      "thumb": { "src": "img/project-pure-html-and-css.jpg" },
+      "featured": { "src": "img/project-pure-html-and-css.jpg" },
       "alt": "Pure Html"
     },
     "liveUrl": "https://marktucker-purehtmlco.netlify.app/",
@@ -16,8 +16,8 @@
     "title": "Prank - Creative direction and AI prompting",
     "description": "Built single-page transformation demo with CSS animations and DOM manipulation. Implemented state-driven UI toggle revealing professional explanation. Demonstrates AI prompting and design direction skills through deliberate anti-pattern showcase.",
     "images": {
-      "thumb": { "src": "/img/project-prank.jpg" },
-      "featured": { "src": "/img/project-prank.jpg" },
+      "thumb": { "src": "img/project-prank.jpg" },
+      "featured": { "src": "img/project-prank.jpg" },
       "alt": "Prank project"
     },
     "liveUrl": "https://mrkteq.github.io/prank/",
@@ -28,8 +28,8 @@
     "title": "Countries - API integration pattern",
     "description": "Integrated REST Countries API with fetch requests and async/await error handling. Built search and filter functionality with debounced input to reduce API calls by 85%. Implemented dynamic card rendering with template literals and responsive grid layout.",
     "images": {
-      "thumb": { "src": "/img/project-countries-api.jpg" },
-      "featured": { "src": "/img/project-countries-api.jpg" },
+      "thumb": { "src": "img/project-countries-api.jpg" },
+      "featured": { "src": "img/project-countries-api.jpg" },
       "alt": "Countries Api"
     },
     "liveUrl": "https://api-for-countries.netlify.app/",
@@ -40,8 +40,8 @@
     "title": "Recipe Finder - Async data handling",
     "description": "Integrated Edamam Recipe API with pagination and filter controls. Built async data fetching with loading states and error handling. Implemented responsive card grid with CSS Grid and optimized image loading using lazy loading attributes.",
     "images": {
-      "thumb": { "src": "/img/project-recipe-finder.jpg" },
-      "featured": { "src": "/img/project-recipe-finder.jpg" },
+      "thumb": { "src": "img/project-recipe-finder.jpg" },
+      "featured": { "src": "img/project-recipe-finder.jpg" },
       "alt": "Recipe Finder"
     },
     "liveUrl": "https://kitchenhero.netlify.app/",
@@ -52,8 +52,8 @@
     "title": "Responsive Layout - Mobile-first approach",
     "description": "Built mobile-first responsive layout with CSS Grid and Flexbox. Implemented fluid typography using clamp() functions. Designed breakpoint system supporting mobile, tablet, and desktop viewports with touch and keyboard interaction support.",
     "images": {
-      "thumb": { "src": "/img/project-responsive-layout.jpg" },
-      "featured": { "src": "/img/project-responsive-layout.jpg" },
+      "thumb": { "src": "img/project-responsive-layout.jpg" },
+      "featured": { "src": "img/project-responsive-layout.jpg" },
       "alt": "Responsive Layout"
     },
     "liveUrl": "https://demo-rwd.netlify.app",
@@ -64,8 +64,8 @@
     "title": "Sign-Up - Form layout and validation",
     "description": "Developed form validation with real-time feedback using JavaScript event listeners. Implemented accessible error messaging with ARIA live regions. Built responsive form layout with CSS Grid and custom input styling.",
     "images": {
-      "thumb": { "src": "/img/project-sign-up.jpg" },
-      "featured": { "src": "/img/project-sign-up.jpg" },
+      "thumb": { "src": "img/project-sign-up.jpg" },
+      "featured": { "src": "img/project-sign-up.jpg" },
       "alt": "Signup"
     },
     "liveUrl": "https://demo-signup.netlify.app/",
@@ -76,8 +76,8 @@
     "title": "Trusted House - Complete business site",
     "description": "Built multi-page responsive site with semantic HTML5 structure. Implemented mobile-first navigation with CSS transforms and transitions. Designed accessible forms with proper label associations and ARIA attributes.",
     "images": {
-      "thumb": { "src": "/img/project-trusted-house-and-pet-sitters.jpg" },
-      "featured": { "src": "/img/project-trusted-house-and-pet-sitters.jpg" },
+      "thumb": { "src": "img/project-trusted-house-and-pet-sitters.jpg" },
+      "featured": { "src": "img/project-trusted-house-and-pet-sitters.jpg" },
       "alt": "Trusted House"
     },
     "liveUrl": "https://howsit.netlify.app/",
@@ -88,8 +88,8 @@
     "title": "UK Council Websites (20+ Sites)",
     "description": "Contributed front-end development for 20+ UK council websites on white-label SaaS platform using XML templating and jQuery. Implemented WCAG 2.1 AA accessible components including responsive navigation, form controls, and semantic markup patterns. Collaborated with design and back-end teams across Bristol, Edinburgh, Hackney, Lambeth, Newcastle, Southwark, and 14 other local authorities.",
     "images": {
-      "thumb": { "src": "/img/project-bristol.jpg" },
-      "featured": { "src": "/img/project-bristol.jpg" },
+      "thumb": { "src": "img/project-bristol.jpg" },
+      "featured": { "src": "img/project-bristol.jpg" },
       "alt": "Public Sector"
     }
   },
@@ -98,8 +98,8 @@
     "title": "SME Website Packages (15+ Sites)",
     "description": "Hand-coded 15+ complete website packages for small-medium businesses from PSD designs using PHP, HTML, CSS, JavaScript. Implemented responsive layouts with mobile-first approach and cross-browser compatibility. Delivered pixel-perfect implementations for clients across healthcare, manufacturing, publishing, and professional services sectors including Gingerlilly, Laurence King Publishing, Kimal, and Lumishore.",
     "images": {
-      "thumb": { "src": "/img/project-gingerlilly.jpg" },
-      "featured": { "src": "/img/project-gingerlilly.jpg" },
+      "thumb": { "src": "img/project-gingerlilly.jpg" },
+      "featured": { "src": "img/project-gingerlilly.jpg" },
       "alt": "SME Sites"
     }
   },
@@ -108,8 +108,8 @@
     "title": "High-Traffic Gambling Platforms",
     "description": "Contributed front-end development for high-traffic Sportsbook, Casino, eSports, and Slots platforms using AngularJS. Implemented responsive UI components with CSS and collaborated in agile teams. Resolved cross-browser compatibility issues and performance bottlenecks for applications serving millions of concurrent users.",
     "images": {
-      "thumb": { "src": "/img/project-sports-book.jpg" },
-      "featured": { "src": "/img/project-sports-book.jpg" },
+      "thumb": { "src": "img/project-sports-book.jpg" },
+      "featured": { "src": "img/project-sports-book.jpg" },
       "alt": "Sportsbook"
     }
   }
