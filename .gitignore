@@ -1,4 +1,15 @@
 # macOS system files
 .DS_Store
 
+# Build artifacts and dependencies
+node_modules/
+package-lock.json
+.env
+.env.local
+
+# Build outputs
+js/images-map.json
+img/optimized/
+
+# Local assets
 assets/local
