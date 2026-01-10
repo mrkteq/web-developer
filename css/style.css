@@ -100,13 +100,13 @@ p { margin-bottom: var(--space-md); }
 
 .hero a {
   color: var(--brand-accent);
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.2s;
 }
 
 .hero a:hover,
 .hero a:focus-visible {
-  color: var(--interactive-hover);
+  color: var(--text);
   text-decoration: none;
 }
 
@@ -174,7 +174,7 @@ footer.site-footer {
 
 footer.site-footer a {
   color: var(--brand-accent);
-  text-decoration: underline;
+  /* text-decoration: underline; */
   transition: color 0.2s;
 }
 
@@ -203,8 +203,7 @@ footer.site-footer a:focus {
 .button:hover {
   background-color: var(--brand-accent);
   border-color: var(--brand-accent);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px var(--shadow);
+  box-shadow: 0 4px 12px var(--shadow);
   cursor: pointer;
 }
 
@@ -262,9 +261,10 @@ footer.site-footer a:focus {
 }
 
 .project-grid .button:hover {
-  background-color: var(--brand-accent);
-  color: var(--text-inverse);
+  background-color: transparent;
+  color: var(--brand-accent);
   border-color: var(--brand-accent);
+  box-shadow: 0 2px 8px var(--shadow);
 }
 
 /* Project Cards */
