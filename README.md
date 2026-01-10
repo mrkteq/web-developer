@@ -1,6 +1,6 @@
 # Mark Tucker - Portfolio
 
-A clean, responsive portfolio website showcasing my web development projects and skills. I'm also interested in technical writing and content design, check the repo of my [content design portfolio](https://github.com/mrkteq/content-designer).
+A clean, responsive portfolio website showcasing my web development projects and skills. I'm also interested in technical writing and content design, check the repo for my [content design portfolio](https://github.com/mrkteq/content-designer).
 
 ![Portfolio Screenshot](Screenshot.png)
 
