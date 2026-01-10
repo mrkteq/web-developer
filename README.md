@@ -1,37 +1,28 @@
 # Mark Tucker - Portfolio
 
-A clean, responsive portfolio website showcasing my web development projects and skills. I'm also interested in technical writing and content design, check the repo for my [content design portfolio](https://github.com/mrkteq/content-designer).
+A clean, responsive portfolio website showcasing my web development projects and skills.
 
-![Portfolio Screenshot](Screenshot.png)
-
-**[View Live Demo](https://marktucker-portfolio.netlify.app/)**
+**[View Live Demo](https://mrkteq.github.io/web-developer/)**
 
 ## Tech Stack
 
-- **HTML5** - Semantic markup with custom web components
+- **HTML5** - Semantic markup with accessible structure
 - **CSS3** - Modern responsive design with CSS Grid and Flexbox
-- **Vanilla JavaScript** - Custom animated logo component
-- **Sharp** - Automated responsive image generation
+- **Vanilla JavaScript** - Zero dependencies
 
 ## Features
 
-- Animated SVG logo with customizable timing
 - Fully responsive design across all devices
-- Dark mode support
+- Dark mode support with `prefers-color-scheme`
 - Accessibility-focused (semantic HTML, ARIA labels)
-- Optimized responsive images with automated pipeline
 - Fast loading with minimal JavaScript
+- GitHub Pages compatible
 
-## Development
+## Deployment
 
-### Responsive Image Pipeline
+This site is optimized for GitHub Pages deployment:
 
-This repo includes a simple image pipeline to generate responsive assets and a JSON map consumed by the site.
-
-1. Place original images in `img/` named as `project-<slug>.jpg`.
-2. Install dependencies and run the build:
-   - `npm install`
-   - `npm run build:images`
-3. Optimised versions are generated in `img/optimized/<slug>/` and a map is written to `js/images-map.json` and used automatically by the site.
-
-No changes to the HTML are required; the grid and featured image will use `srcset`/`sizes` when the map is present.
+1. Ensure all paths are relative (no leading `/`)
+2. Push to your GitHub repository
+3. Enable GitHub Pages in repository settings
+4. Site will be available at `https://username.github.io/web-developer/`
