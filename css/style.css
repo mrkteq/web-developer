@@ -1,89 +1,50 @@
-/* ==========================================================================
-   Simplified Color System - mk Brand
-   ========================================================================== */
-
+/* Core Variables */
 :root {
   color-scheme: light dark;
-  
-  /* Core Brand Colors - Change these to update entire site */
-  --brand-dark: #0E1A33;      /* Deep Midnight Blue */
-  --brand-accent: #F5A623;     /* Tech Amber */
-  --brand-light: #FFFFFF;      /* Pure White */
-  
-  /* Semantic Mappings - Auto-derived from core colors */
-  --surface: var(--brand-light);
-  --surface-dark: var(--brand-dark);
-  --text: var(--brand-dark);
-  --text-inverse: var(--brand-light);
+  --dark: #0E1A33;
+  --accent: #F5A623;
+  --white: #FFFFFF;
   --border: rgba(14, 26, 51, 0.15);
   --shadow: rgba(14, 26, 51, 0.1);
-  
-  /* Interactive States */
-  --interactive: var(--brand-accent);
-  --interactive-hover: #D89420;  /* Darker amber */
-  
-  /* Spacing & Typography */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2.5rem;
-  
-  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-size-base: clamp(1rem, 3vw, 1.125rem);
-  --font-size-h1: clamp(2rem, 5vw, 3rem);
-  --font-size-h2: clamp(1.5rem, 4vw, 2.25rem);
+  --space: 1rem;
 }
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface: #0B1220;
-    --surface-dark: #000000;
-    --text: #E6ECF5;
     --border: rgba(255, 255, 255, 0.15);
     --shadow: rgba(0, 0, 0, 0.4);
   }
 }
 
-/* ==========================================================================
-   Base Styles
-   ========================================================================== */
+/* Base */
+html { scroll-behavior: smooth; }
 
-html {
-  scroll-behavior: smooth;
-}
-
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: var(--font-family);
-  font-size: var(--font-size-base);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: clamp(1rem, 3vw, 1.125rem);
   line-height: 1.6;
-  color: var(--text);
+  color: var(--dark);
   min-height: 100vh;
-  background: var(--surface);
+  background: var(--white);
 }
 
 h1, h2, h3 {
   line-height: 1.2;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space);
 }
 
-h1 { font-size: var(--font-size-h1); }
-h2 { font-size: var(--font-size-h2); }
-p { margin-bottom: var(--space-md); }
+h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 2.25rem); }
+p { margin-bottom: var(--space); }
 
-/* ==========================================================================
-   Layout
-   ========================================================================== */
-
+/* Layout */
 .container {
   width: min(90%, 1200px);
   margin-inline: auto;
@@ -93,43 +54,39 @@ p { margin-bottom: var(--space-md); }
   display: grid;
   place-items: center;
   text-align: left;
-  padding-block: var(--space-xl);
-  background-color: var(--brand-dark);
-  color: var(--text-inverse);
+  padding-block: 2.5rem;
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 .hero a {
-  color: var(--brand-accent);
+  color: var(--accent);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .hero a:hover,
 .hero a:focus-visible {
-  color: var(--text);
+  color: var(--white);
   text-decoration: none;
 }
 
 .hero a:focus-visible {
-  outline: 2px solid var(--brand-accent);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
-/* ==========================================================================
-   Header & Footer
-   ========================================================================== */
-
-header.site-header {
-  width: 100%;
-  background-color: var(--brand-dark);
-  color: var(--text-inverse);
-  padding: var(--space-md) 0;
+/* Header & Footer */
+.site-header {
+  background-color: var(--dark);
+  color: var(--white);
+  padding: var(--space) 0;
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: 0.04em;
   font-weight: 700;
   box-shadow: 0 4px 16px var(--shadow);
-  border-bottom: 4px solid var(--brand-accent);
+  border-bottom: 4px solid var(--accent);
   position: relative;
   z-index: 10;
 }
@@ -138,7 +95,7 @@ header.site-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-sm);
+  gap: 0.5rem;
   justify-content: center;
 }
 
@@ -148,52 +105,35 @@ header.site-header {
   letter-spacing: 8px;
 }
 
-header.site-header::after {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: var(--brand-accent);
-  margin: 0.5rem auto 0 auto;
-  border-radius: 2px;
-  opacity: 0.9;
-}
-
-footer.site-footer {
-  width: 100%;
-  background: var(--brand-dark);
-  color: var(--text-inverse);
-  padding: var(--space-xl) 0;
+.site-footer {
+  background: var(--dark);
+  color: var(--white);
+  padding: 2.5rem 0;
   text-align: center;
   font-size: 1.1rem;
   letter-spacing: 0.02em;
-  border-top: 3px solid var(--brand-accent);
+  border-top: 3px solid var(--accent);
   box-shadow: 0 -2px 8px var(--shadow);
-  position: relative;
 }
 
-footer.site-footer a {
-  color: var(--brand-accent);
-  /* text-decoration: underline; */
+.site-footer a {
+  color: var(--accent);
   transition: color 0.2s;
 }
 
-footer.site-footer a:hover,
-footer.site-footer a:focus {
-  color: var(--interactive-hover);
+.site-footer a:hover,
+.site-footer a:focus {
+  color: #D89420;
   text-decoration: none;
 }
 
-/* ==========================================================================
-   Buttons
-   ========================================================================== */
-
+/* Buttons */
 .button {
   display: inline-block;
   padding: 0.75rem 1.25rem;
   background-color: transparent;
-  color: var(--text-inverse);
-  border: 2px solid var(--text-inverse);
+  color: var(--white);
+  border: 2px solid var(--white);
   text-decoration: none;
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -201,42 +141,39 @@ footer.site-footer a:focus {
 }
 
 .button:hover {
-  background-color: var(--brand-accent);
-  border-color: var(--brand-accent);
+  background-color: var(--accent);
+  border-color: var(--accent);
   box-shadow: 0 4px 12px var(--shadow);
   cursor: pointer;
 }
 
 .button:focus-visible {
-  outline: 3px solid var(--brand-accent);
+  outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
 
 .button-group {
   display: flex;
-  gap: var(--space-md);
+  gap: var(--space);
 }
 
-/* ==========================================================================
-   Projects Section
-   ========================================================================== */
-
+/* Projects */
 .projects {
-  background-color: var(--brand-dark);
-  color: var(--text-inverse);
-  padding-bottom: var(--space-xl);
+  background-color: var(--dark);
+  color: var(--white);
+  padding-bottom: 2.5rem;
 }
 
 .project-grid {
   display: grid;
-  gap: var(--space-lg);
-  background: var(--surface);
+  gap: 1.5rem;
+  background: var(--white);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: var(--space-lg);
-  margin-bottom: var(--space-xl);
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
   box-shadow: 0 10px 24px var(--shadow);
-  color: var(--text);
+  color: var(--dark);
 }
 
 .featured-image-container {
@@ -245,7 +182,7 @@ footer.site-footer a:focus {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 6px var(--shadow);
-  background-color: var(--surface);
+  background-color: var(--white);
 }
 
 .project-image.featured {
@@ -254,44 +191,44 @@ footer.site-footer a:focus {
   transition: transform 0.3s ease;
 }
 
-/* Buttons on light backgrounds */
 .project-grid .button {
-  color: var(--text);
-  border-color: var(--text);
+  color: var(--dark);
+  border-color: var(--dark);
 }
 
 .project-grid .button:hover {
   background-color: transparent;
-  color: var(--brand-accent);
-  border-color: var(--brand-accent);
+  color: var(--accent);
+  border-color: var(--accent);
   box-shadow: 0 2px 8px var(--shadow);
 }
 
-/* Project Cards */
 .project-grid-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: var(--space-md);
+  gap: var(--space);
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
-  background: var(--surface);
+  gap: 0.5rem;
+  background: var(--white);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: var(--space-sm);
+  padding: 0.5rem;
   cursor: pointer;
   text-align: left;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.project-card:hover,
-.project-card:focus-visible {
+.project-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px var(--shadow);
-  outline: 3px solid var(--brand-accent);
+}
+
+.project-card:focus-visible {
+  outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -300,17 +237,16 @@ footer.site-footer a:focus {
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
-  background-color: var(--surface);
+  background-color: var(--white);
 }
 
 .project-card-title {
   font-weight: 600;
-  color: var(--text);
-  padding-inline: var(--space-xs);
-  padding-bottom: var(--space-xs);
+  color: var(--dark);
+  padding-inline: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-/* Filter & Pagination */
 .project-filters {
   display: flex;
   flex-wrap: wrap;
@@ -323,22 +259,22 @@ footer.site-footer a:focus {
   font-size: 12px;
   padding: 6px 12px;
   border-radius: 3px;
-  border: 1px solid var(--text-inverse);
-  background: var(--brand-dark);
-  color: var(--text-inverse);
+  border: 1px solid var(--white);
+  background: var(--dark);
+  color: var(--white);
   cursor: pointer;
   transition: all 150ms ease;
 }
 
 .filter-chip[aria-pressed="true"],
 .filter-chip:hover {
-  background: var(--brand-accent);
-  border-color: var(--brand-accent);
-  color: var(--brand-dark);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--dark);
 }
 
 .filter-chip:focus-visible {
-  outline: 3px solid var(--brand-accent);
+  outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -353,7 +289,7 @@ footer.site-footer a:focus {
   height: 10px;
   border-radius: 50%;
   background: transparent;
-  border: 2px solid var(--text-inverse);
+  border: 2px solid var(--white);
   opacity: 0.7;
   cursor: pointer;
   padding: 0;
@@ -366,32 +302,29 @@ footer.site-footer a:focus {
 }
 
 .project-dots .dot.active {
-  background: var(--brand-accent);
-  border-color: var(--brand-accent);
+  background: var(--accent);
+  border-color: var(--accent);
   opacity: 1;
   width: 12px;
   height: 12px;
 }
 
 .project-dots .dot:focus-visible {
-  outline: 3px solid var(--brand-accent);
+  outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
 
-/* ==========================================================================
-   Responsive
-   ========================================================================== */
-
+/* Responsive */
 @media (min-width: 768px) {
   .header-content {
     flex-direction: row;
-    gap: var(--space-md);
+    gap: var(--space);
   }
   
   .project-grid {
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
-    gap: var(--space-xl);
+    gap: 2.5rem;
   }
   
   .project-content {
