@@ -1,4 +1,4 @@
-# Mark Tucker - Portfolio
+# Web Developer - Portfolio
 
 A clean, responsive portfolio website showcasing my web development projects and skills.
 
