@@ -2,8 +2,6 @@
 
 Frontend projects demonstrating HTML, CSS, and JavaScript fundamentals.
 
-**[View portfolio →](https://mrkteq.github.io/web-developer)**
-
 ## Projects
 
 1. **Pure HTML CSS - Zero Dependency Demo** — Modern CSS navigation, View Transitions, Grid/Flexbox layouts, zero JavaScript dependency.
