@@ -1,28 +1,25 @@
-# Web Developer - Portfolio
+# Web Developer Portfolio
 
-A clean, responsive portfolio website showcasing my web development projects and skills.
+Frontend projects demonstrating HTML, CSS, and JavaScript fundamentals.
 
-**[View Live Demo](https://mrkteq.github.io/web-developer/)**
+## Projects
 
-## Tech Stack
+1. **Pure HTML CSS - Zero Dependency Demo** — Modern CSS navigation, View Transitions, Grid/Flexbox layouts, zero JavaScript dependency.
+2. **Prank - Creative direction and AI prompting** — Single-page state toggle, CSS animations, deliberate anti-patterns, AI prompting showcase.
+3. **Responsive Layout - Mobile-first approach** — Mobile-first responsive design, CSS Grid/Flexbox, fluid typography, multi-breakpoint system.
 
-- **HTML5** - Semantic markup with accessible structure
-- **CSS3** - Modern responsive design with CSS Grid and Flexbox
-- **Vanilla JavaScript** - Zero dependencies
+## About
 
-## Features
+Web developer and content designer based in Spain. I build clean, accessible interfaces with vanilla HTML, CSS, and JavaScript—no frameworks unless the project requires them.
 
-- Fully responsive design across all devices
-- Dark mode support with `prefers-color-scheme`
-- Accessibility-focused (semantic HTML, ARIA labels)
-- Fast loading with minimal JavaScript
-- GitHub Pages compatible
+- [Web development portfolio](https://mrkteq.github.io/web-developer)
+- [Content design portfolio](https://mrkteq.github.io/content-designer)
 
-## Deployment
+---
 
-This site is optimized for GitHub Pages deployment:
+<details>
+<summary>Technical notes</summary>
 
-1. Ensure all paths are relative (no leading `/`)
-2. Push to your GitHub repository
-3. Enable GitHub Pages in repository settings
-4. Site will be available at `https://username.github.io/web-developer/`
+Static site, zero dependencies. Mobile-first, WCAG AA accessible, dark mode support. Lighthouse scores 89–98.
+
+</details>
