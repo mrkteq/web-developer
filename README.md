@@ -6,9 +6,9 @@ Frontend projects demonstrating HTML, CSS, and JavaScript fundamentals.
 
 ## Projects
 
-1. **[Project Name]** — [10-word description of what it does/demonstrates]
-2. **[Project Name]** — [10-word description]
-3. **[Project Name]** — [10-word description]
+1. **Pure HTML CSS - Zero Dependency Demo** — Modern CSS navigation, View Transitions, Grid/Flexbox layouts, zero JavaScript dependency.
+2. **Prank - Creative direction and AI prompting** — Single-page state toggle, CSS animations, deliberate anti-patterns, AI prompting showcase.
+3. **Responsive Layout - Mobile-first approach** — Mobile-first responsive design, CSS Grid/Flexbox, fluid typography, multi-breakpoint system.
 
 ## About
 
